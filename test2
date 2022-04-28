@@ -1,0 +1,2846 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ilx: <http://uri.interlex.org/> .
+@prefix ndar: <https://ndar.nih.gov/api/datadictionary/v2/dataelement/> .
+@prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+@prefix nidm: <http://purl.org/nidash/nidm#> .
+@prefix niiri: <http://iri.nidash.org/> .
+@prefix onli: <http://neurolog.unice.fr/ontoneurolog/v3.0/instrument.owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sio: <http://semanticscience.org/ontology/sio.owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+niiri:a2254b6e-c6c9-11ec-982b-9810e8f107c4 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:abcd_cbcl01_id_1ig21p "100"^^xsd:string ;
+    niiri:cbcl_q01_p_1o5q0gm "0"^^xsd:string ;
+    niiri:cbcl_q02_p_283kfgr "0"^^xsd:string ;
+    niiri:cbcl_q03_p_3lfsdtj "1"^^xsd:string ;
+    niiri:cbcl_q04_p_3himmmf "0"^^xsd:string ;
+    niiri:cbcl_q05_p_p70ovm "0"^^xsd:string ;
+    niiri:cbcl_q06_p_260pa41 "0"^^xsd:string ;
+    niiri:cbcl_q07_p_1cmsfmp "1"^^xsd:string ;
+    niiri:cbcl_q08_p_9sfeu3 "0"^^xsd:string ;
+    niiri:cbcl_q09_p_3sd5n8h "0"^^xsd:string ;
+    niiri:cbcl_q100_p_26p1vgn "0"^^xsd:string ;
+    niiri:cbcl_q101_p_1623q8m "0"^^xsd:string ;
+    niiri:cbcl_q102_p_1kmlejj "0"^^xsd:string ;
+    niiri:cbcl_q103_p_1dubu4f "0"^^xsd:string ;
+    niiri:cbcl_q104_p_1c2cflb "0"^^xsd:string ;
+    niiri:cbcl_q105_p_1opj2f0 "0"^^xsd:string ;
+    niiri:cbcl_q106_p_1bvdf4s "0"^^xsd:string ;
+    niiri:cbcl_q107_p_3alk8ie "0"^^xsd:string ;
+    niiri:cbcl_q108_p_1larnb6 "0"^^xsd:string ;
+    niiri:cbcl_q109_p_3cocsnr "0"^^xsd:string ;
+    niiri:cbcl_q10_p_18n2tcq "0"^^xsd:string ;
+    niiri:cbcl_q110_p_2au6pp2 "0"^^xsd:string ;
+    niiri:cbcl_q111_p_1rbl72j "0"^^xsd:string ;
+    niiri:cbcl_q112_p_d561sf "0"^^xsd:string ;
+    niiri:cbcl_q11_p_32uunvd "0"^^xsd:string ;
+    niiri:cbcl_q12_p_6lb02h "0"^^xsd:string ;
+    niiri:cbcl_q13_p_2r30g71 "0"^^xsd:string ;
+    niiri:cbcl_q14_p_35r46c6 "0"^^xsd:string ;
+    niiri:cbcl_q15_p_349f1af "0"^^xsd:string ;
+    niiri:cbcl_q16_p_126slt7 "0"^^xsd:string ;
+    niiri:cbcl_q17_p_us1d7m "0"^^xsd:string ;
+    niiri:cbcl_q18_p_2nak66g "0"^^xsd:string ;
+    niiri:cbcl_q19_p_gnrg93 "0"^^xsd:string ;
+    niiri:cbcl_q20_p_1ls69g4 "0"^^xsd:string ;
+    niiri:cbcl_q21_p_2sun869 "0"^^xsd:string ;
+    niiri:cbcl_q22_p_1p27v1l "0"^^xsd:string ;
+    niiri:cbcl_q23_p_8ibn7b "0"^^xsd:string ;
+    niiri:cbcl_q24_p_6dahan "0"^^xsd:string ;
+    niiri:cbcl_q25_p_3vdo9kl "0"^^xsd:string ;
+    niiri:cbcl_q26_p_o7k8va "0"^^xsd:string ;
+    niiri:cbcl_q27_p_bvrbpk "0"^^xsd:string ;
+    niiri:cbcl_q28_p_26i22q0 "0"^^xsd:string ;
+    niiri:cbcl_q29_p_38tegbc "0"^^xsd:string ;
+    niiri:cbcl_q30_p_29jj8kt "0"^^xsd:string ;
+    niiri:cbcl_q31_p_17djmpf "0"^^xsd:string ;
+    niiri:cbcl_q32_p_hs1853 "0"^^xsd:string ;
+    niiri:cbcl_q33_p_2ub160t "0"^^xsd:string ;
+    niiri:cbcl_q34_p_s41fjf "0"^^xsd:string ;
+    niiri:cbcl_q35_p_3608qhq "0"^^xsd:string ;
+    niiri:cbcl_q36_p_2g5829t "0"^^xsd:string ;
+    niiri:cbcl_q37_p_20uv3tk "0"^^xsd:string ;
+    niiri:cbcl_q38_p_33uckqe "0"^^xsd:string ;
+    niiri:cbcl_q39_p_3ch4n17 "0"^^xsd:string ;
+    niiri:cbcl_q40_p_mkbr21 "0"^^xsd:string ;
+    niiri:cbcl_q41_p_1td4168 "0"^^xsd:string ;
+    niiri:cbcl_q42_p_1n4s6cl "0"^^xsd:string ;
+    niiri:cbcl_q43_p_1iaqkgl "0"^^xsd:string ;
+    niiri:cbcl_q44_p_q8t7sk "0"^^xsd:string ;
+    niiri:cbcl_q45_p_2o1bi2v "0"^^xsd:string ;
+    niiri:cbcl_q46_p_1d0hlil "0"^^xsd:string ;
+    niiri:cbcl_q47_p_2nd479k "0"^^xsd:string ;
+    niiri:cbcl_q48_p_tr175q "0"^^xsd:string ;
+    niiri:cbcl_q49_p_2mkga1v "0"^^xsd:string ;
+    niiri:cbcl_q50_p_1l6v96f "0"^^xsd:string ;
+    niiri:cbcl_q51_p_3i8dsqa "0"^^xsd:string ;
+    niiri:cbcl_q52_p_10gl5f3 "0"^^xsd:string ;
+    niiri:cbcl_q53_p_j0bi9e "0"^^xsd:string ;
+    niiri:cbcl_q54_p_igj833 "0"^^xsd:string ;
+    niiri:cbcl_q55_p_3mi44i2 "0"^^xsd:string ;
+    niiri:cbcl_q56a_p_3vp6dm3 "0"^^xsd:string ;
+    niiri:cbcl_q56b_p_2jgq3ms "1"^^xsd:string ;
+    niiri:cbcl_q56c_p_20n298p "1"^^xsd:string ;
+    niiri:cbcl_q56d_p_2qaiifg "0"^^xsd:string ;
+    niiri:cbcl_q56e_p_d8otkb "0"^^xsd:string ;
+    niiri:cbcl_q56f_p_1fspiun "1"^^xsd:string ;
+    niiri:cbcl_q56g_p_ol34s2 "1"^^xsd:string ;
+    niiri:cbcl_q56h_p_2rs611k "0"^^xsd:string ;
+    niiri:cbcl_q57_p_qfnikt "0"^^xsd:string ;
+    niiri:cbcl_q58_p_3b9bvg6 "0"^^xsd:string ;
+    niiri:cbcl_q59_p_19bc5a0 "0"^^xsd:string ;
+    niiri:cbcl_q60_p_37r0vao "0"^^xsd:string ;
+    niiri:cbcl_q61_p_q9in4o "0"^^xsd:string ;
+    niiri:cbcl_q62_p_1guokm2 "0"^^xsd:string ;
+    niiri:cbcl_q63_p_3r5f1kq "0"^^xsd:string ;
+    niiri:cbcl_q64_p_ub5jg9 "0"^^xsd:string ;
+    niiri:cbcl_q65_p_15o2bb "0"^^xsd:string ;
+    niiri:cbcl_q66_p_1jnrvte "0"^^xsd:string ;
+    niiri:cbcl_q67_p_1nv4vvl "0"^^xsd:string ;
+    niiri:cbcl_q68_p_299n0la "1"^^xsd:string ;
+    niiri:cbcl_q69_p_hgjk1s "0"^^xsd:string ;
+    niiri:cbcl_q70_p_n7i60r "0"^^xsd:string ;
+    niiri:cbcl_q71_p_1o6ibi2 "0"^^xsd:string ;
+    niiri:cbcl_q72_p_20coill "0"^^xsd:string ;
+    niiri:cbcl_q73_p_2cooil1 "0"^^xsd:string ;
+    niiri:cbcl_q74_p_1p0slk "0"^^xsd:string ;
+    niiri:cbcl_q75_p_2q0cbhd "0"^^xsd:string ;
+    niiri:cbcl_q76_p_1vjhssr "0"^^xsd:string ;
+    niiri:cbcl_q77_p_3mrvbv1 "0"^^xsd:string ;
+    niiri:cbcl_q78_p_2tpjrdf "0"^^xsd:string ;
+    niiri:cbcl_q79_p_ecg9gk "0"^^xsd:string ;
+    niiri:cbcl_q80_p_3581qdf "0"^^xsd:string ;
+    niiri:cbcl_q81_p_2fgbb3 "0"^^xsd:string ;
+    niiri:cbcl_q82_p_lnk7b8 "0"^^xsd:string ;
+    niiri:cbcl_q83_p_c71b5e "0"^^xsd:string ;
+    niiri:cbcl_q84_p_jbsb2o "0"^^xsd:string ;
+    niiri:cbcl_q85_p_22l7eh0 "0"^^xsd:string ;
+    niiri:cbcl_q86_p_2t1bdgr "0"^^xsd:string ;
+    niiri:cbcl_q87_p_1rne6bk "0"^^xsd:string ;
+    niiri:cbcl_q88_p_3gopm3a "0"^^xsd:string ;
+    niiri:cbcl_q89_p_15d1mco "0"^^xsd:string ;
+    niiri:cbcl_q90_p_3oakgfb "0"^^xsd:string ;
+    niiri:cbcl_q91_p_30079nc "0"^^xsd:string ;
+    niiri:cbcl_q92_p_avvkjt "0"^^xsd:string ;
+    niiri:cbcl_q93_p_fe5dae "1"^^xsd:string ;
+    niiri:cbcl_q94_p_1u2su4e "0"^^xsd:string ;
+    niiri:cbcl_q95_p_25vu4ud "0"^^xsd:string ;
+    niiri:cbcl_q96_p_2eq23nc "0"^^xsd:string ;
+    niiri:cbcl_q97_p_2vmlkna "0"^^xsd:string ;
+    niiri:cbcl_q98_p_2g7uvpa "0"^^xsd:string ;
+    niiri:cbcl_q99_p_degmk "0"^^xsd:string ;
+    niiri:cbcl_select_language___1_fki6oe "1"^^xsd:string ;
+    niiri:collection_id_3t0ftjn "1"^^xsd:string ;
+    niiri:collection_title_1c302s1 "fake Adolescent Brain Cognitive Development Study (fABCD)"^^xsd:string ;
+    niiri:dataset_id_30hh82b "1000"^^xsd:string ;
+    niiri:eventname_37mm0ke "baseline_year_1_arm_1"^^xsd:string ;
+    niiri:interview_age_1l03vd1 "131"^^xsd:string ;
+    niiri:interview_date_1lfivho "4/1/18"^^xsd:string ;
+    niiri:sex_2j8l88m "F"^^xsd:string ;
+    niiri:study_cohort_name_27b2pno "fABCD 3.0 Data Release"^^xsd:string ;
+    niiri:subjectkey_3vulicm "NDAR_INV00000004"^^xsd:string ;
+    niiri:timept_3lq661u "NaN"^^xsd:double ;
+    nfo:filename "abcd_cbcl01_simdata.csv"^^xsd:string ;
+    prov:Location "file:/abcd_cbcl01_simdata.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:c225489e-c6c9-11ec-982b-9810e8f107c4 .
+
+niiri:a22a7030-c6c9-11ec-982b-9810e8f107c4 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:abcd_cbcl01_id_1ig21p "100"^^xsd:string ;
+    niiri:cbcl_q01_p_1o5q0gm "0"^^xsd:string ;
+    niiri:cbcl_q02_p_283kfgr "0"^^xsd:string ;
+    niiri:cbcl_q03_p_3lfsdtj "1"^^xsd:string ;
+    niiri:cbcl_q04_p_3himmmf "1"^^xsd:string ;
+    niiri:cbcl_q05_p_p70ovm "0"^^xsd:string ;
+    niiri:cbcl_q06_p_260pa41 "0"^^xsd:string ;
+    niiri:cbcl_q07_p_1cmsfmp "0"^^xsd:string ;
+    niiri:cbcl_q08_p_9sfeu3 "2"^^xsd:string ;
+    niiri:cbcl_q09_p_3sd5n8h "1"^^xsd:string ;
+    niiri:cbcl_q100_p_26p1vgn "0"^^xsd:string ;
+    niiri:cbcl_q101_p_1623q8m "0"^^xsd:string ;
+    niiri:cbcl_q102_p_1kmlejj "0"^^xsd:string ;
+    niiri:cbcl_q103_p_1dubu4f "1"^^xsd:string ;
+    niiri:cbcl_q104_p_1c2cflb "0"^^xsd:string ;
+    niiri:cbcl_q105_p_1opj2f0 "0"^^xsd:string ;
+    niiri:cbcl_q106_p_1bvdf4s "0"^^xsd:string ;
+    niiri:cbcl_q107_p_3alk8ie "0"^^xsd:string ;
+    niiri:cbcl_q108_p_1larnb6 "0"^^xsd:string ;
+    niiri:cbcl_q109_p_3cocsnr "0"^^xsd:string ;
+    niiri:cbcl_q10_p_18n2tcq "2"^^xsd:string ;
+    niiri:cbcl_q110_p_2au6pp2 "0"^^xsd:string ;
+    niiri:cbcl_q111_p_1rbl72j "0"^^xsd:string ;
+    niiri:cbcl_q112_p_d561sf "0"^^xsd:string ;
+    niiri:cbcl_q11_p_32uunvd "0"^^xsd:string ;
+    niiri:cbcl_q12_p_6lb02h "0"^^xsd:string ;
+    niiri:cbcl_q13_p_2r30g71 "1"^^xsd:string ;
+    niiri:cbcl_q14_p_35r46c6 "0"^^xsd:string ;
+    niiri:cbcl_q15_p_349f1af "0"^^xsd:string ;
+    niiri:cbcl_q16_p_126slt7 "1"^^xsd:string ;
+    niiri:cbcl_q17_p_us1d7m "0"^^xsd:string ;
+    niiri:cbcl_q18_p_2nak66g "0"^^xsd:string ;
+    niiri:cbcl_q19_p_gnrg93 "0"^^xsd:string ;
+    niiri:cbcl_q20_p_1ls69g4 "0"^^xsd:string ;
+    niiri:cbcl_q21_p_2sun869 "0"^^xsd:string ;
+    niiri:cbcl_q22_p_1p27v1l "1"^^xsd:string ;
+    niiri:cbcl_q23_p_8ibn7b "1"^^xsd:string ;
+    niiri:cbcl_q24_p_6dahan "0"^^xsd:string ;
+    niiri:cbcl_q25_p_3vdo9kl "1"^^xsd:string ;
+    niiri:cbcl_q26_p_o7k8va "1"^^xsd:string ;
+    niiri:cbcl_q27_p_bvrbpk "0"^^xsd:string ;
+    niiri:cbcl_q28_p_26i22q0 "1"^^xsd:string ;
+    niiri:cbcl_q29_p_38tegbc "0"^^xsd:string ;
+    niiri:cbcl_q30_p_29jj8kt "1"^^xsd:string ;
+    niiri:cbcl_q31_p_17djmpf "1"^^xsd:string ;
+    niiri:cbcl_q32_p_hs1853 "0"^^xsd:string ;
+    niiri:cbcl_q33_p_2ub160t "0"^^xsd:string ;
+    niiri:cbcl_q34_p_s41fjf "0"^^xsd:string ;
+    niiri:cbcl_q35_p_3608qhq "0"^^xsd:string ;
+    niiri:cbcl_q36_p_2g5829t "0"^^xsd:string ;
+    niiri:cbcl_q37_p_20uv3tk "0"^^xsd:string ;
+    niiri:cbcl_q38_p_33uckqe "1"^^xsd:string ;
+    niiri:cbcl_q39_p_3ch4n17 "0"^^xsd:string ;
+    niiri:cbcl_q40_p_mkbr21 "0"^^xsd:string ;
+    niiri:cbcl_q41_p_1td4168 "1"^^xsd:string ;
+    niiri:cbcl_q42_p_1n4s6cl "1"^^xsd:string ;
+    niiri:cbcl_q43_p_1iaqkgl "1"^^xsd:string ;
+    niiri:cbcl_q44_p_q8t7sk "2"^^xsd:string ;
+    niiri:cbcl_q45_p_2o1bi2v "1"^^xsd:string ;
+    niiri:cbcl_q46_p_1d0hlil "1"^^xsd:string ;
+    niiri:cbcl_q47_p_2nd479k "0"^^xsd:string ;
+    niiri:cbcl_q48_p_tr175q "1"^^xsd:string ;
+    niiri:cbcl_q49_p_2mkga1v "0"^^xsd:string ;
+    niiri:cbcl_q50_p_1l6v96f "1"^^xsd:string ;
+    niiri:cbcl_q51_p_3i8dsqa "0"^^xsd:string ;
+    niiri:cbcl_q52_p_10gl5f3 "0"^^xsd:string ;
+    niiri:cbcl_q53_p_j0bi9e "0"^^xsd:string ;
+    niiri:cbcl_q54_p_igj833 "0"^^xsd:string ;
+    niiri:cbcl_q55_p_3mi44i2 "0"^^xsd:string ;
+    niiri:cbcl_q56a_p_3vp6dm3 "0"^^xsd:string ;
+    niiri:cbcl_q56b_p_2jgq3ms "0"^^xsd:string ;
+    niiri:cbcl_q56c_p_20n298p "0"^^xsd:string ;
+    niiri:cbcl_q56d_p_2qaiifg "0"^^xsd:string ;
+    niiri:cbcl_q56e_p_d8otkb "0"^^xsd:string ;
+    niiri:cbcl_q56f_p_1fspiun "1"^^xsd:string ;
+    niiri:cbcl_q56g_p_ol34s2 "0"^^xsd:string ;
+    niiri:cbcl_q56h_p_2rs611k "0"^^xsd:string ;
+    niiri:cbcl_q57_p_qfnikt "0"^^xsd:string ;
+    niiri:cbcl_q58_p_3b9bvg6 "1"^^xsd:string ;
+    niiri:cbcl_q59_p_19bc5a0 "0"^^xsd:string ;
+    niiri:cbcl_q60_p_37r0vao "0"^^xsd:string ;
+    niiri:cbcl_q61_p_q9in4o "2"^^xsd:string ;
+    niiri:cbcl_q62_p_1guokm2 "0"^^xsd:string ;
+    niiri:cbcl_q63_p_3r5f1kq "0"^^xsd:string ;
+    niiri:cbcl_q64_p_ub5jg9 "0"^^xsd:string ;
+    niiri:cbcl_q65_p_15o2bb "1"^^xsd:string ;
+    niiri:cbcl_q66_p_1jnrvte "0"^^xsd:string ;
+    niiri:cbcl_q67_p_1nv4vvl "0"^^xsd:string ;
+    niiri:cbcl_q68_p_299n0la "0"^^xsd:string ;
+    niiri:cbcl_q69_p_hgjk1s "0"^^xsd:string ;
+    niiri:cbcl_q70_p_n7i60r "0"^^xsd:string ;
+    niiri:cbcl_q71_p_1o6ibi2 "1"^^xsd:string ;
+    niiri:cbcl_q72_p_20coill "0"^^xsd:string ;
+    niiri:cbcl_q73_p_2cooil1 "0"^^xsd:string ;
+    niiri:cbcl_q74_p_1p0slk "1"^^xsd:string ;
+    niiri:cbcl_q75_p_2q0cbhd "0"^^xsd:string ;
+    niiri:cbcl_q76_p_1vjhssr "0"^^xsd:string ;
+    niiri:cbcl_q77_p_3mrvbv1 "0"^^xsd:string ;
+    niiri:cbcl_q78_p_2tpjrdf "2"^^xsd:string ;
+    niiri:cbcl_q79_p_ecg9gk "1"^^xsd:string ;
+    niiri:cbcl_q80_p_3581qdf "0"^^xsd:string ;
+    niiri:cbcl_q81_p_2fgbb3 "0"^^xsd:string ;
+    niiri:cbcl_q82_p_lnk7b8 "0"^^xsd:string ;
+    niiri:cbcl_q83_p_c71b5e "0"^^xsd:string ;
+    niiri:cbcl_q84_p_jbsb2o "0"^^xsd:string ;
+    niiri:cbcl_q85_p_22l7eh0 "0"^^xsd:string ;
+    niiri:cbcl_q86_p_2t1bdgr "1"^^xsd:string ;
+    niiri:cbcl_q87_p_1rne6bk "1"^^xsd:string ;
+    niiri:cbcl_q88_p_3gopm3a "0"^^xsd:string ;
+    niiri:cbcl_q89_p_15d1mco "0"^^xsd:string ;
+    niiri:cbcl_q90_p_3oakgfb "0"^^xsd:string ;
+    niiri:cbcl_q91_p_30079nc "0"^^xsd:string ;
+    niiri:cbcl_q92_p_avvkjt "0"^^xsd:string ;
+    niiri:cbcl_q93_p_fe5dae "2"^^xsd:string ;
+    niiri:cbcl_q94_p_1u2su4e "1"^^xsd:string ;
+    niiri:cbcl_q95_p_25vu4ud "2"^^xsd:string ;
+    niiri:cbcl_q96_p_2eq23nc "0"^^xsd:string ;
+    niiri:cbcl_q97_p_2vmlkna "0"^^xsd:string ;
+    niiri:cbcl_q98_p_2g7uvpa "0"^^xsd:string ;
+    niiri:cbcl_q99_p_degmk "0"^^xsd:string ;
+    niiri:cbcl_select_language___1_fki6oe "0"^^xsd:string ;
+    niiri:collection_id_3t0ftjn "1"^^xsd:string ;
+    niiri:collection_title_1c302s1 "fake Adolescent Brain Cognitive Development Study (fABCD)"^^xsd:string ;
+    niiri:dataset_id_30hh82b "1000"^^xsd:string ;
+    niiri:eventname_37mm0ke "1_year_follow_up_y_arm_1"^^xsd:string ;
+    niiri:interview_age_1l03vd1 "138"^^xsd:string ;
+    niiri:interview_date_1lfivho "5/1/18"^^xsd:string ;
+    niiri:sex_2j8l88m "M"^^xsd:string ;
+    niiri:study_cohort_name_27b2pno "fABCD 3.0 Data Release"^^xsd:string ;
+    niiri:subjectkey_3vulicm "NDAR_INV00000005"^^xsd:string ;
+    niiri:timept_3lq661u "NaN"^^xsd:double ;
+    nfo:filename "abcd_cbcl01_simdata.csv"^^xsd:string ;
+    prov:Location "file:/abcd_cbcl01_simdata.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:e22a6cfc-c6c9-11ec-982b-9810e8f107c4 .
+
+niiri:a22f848a-c6c9-11ec-982b-9810e8f107c4 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:abcd_cbcl01_id_1ig21p "100"^^xsd:string ;
+    niiri:cbcl_q01_p_1o5q0gm "0"^^xsd:string ;
+    niiri:cbcl_q02_p_283kfgr "0"^^xsd:string ;
+    niiri:cbcl_q03_p_3lfsdtj "0"^^xsd:string ;
+    niiri:cbcl_q04_p_3himmmf "0"^^xsd:string ;
+    niiri:cbcl_q05_p_p70ovm "0"^^xsd:string ;
+    niiri:cbcl_q06_p_260pa41 "0"^^xsd:string ;
+    niiri:cbcl_q07_p_1cmsfmp "0"^^xsd:string ;
+    niiri:cbcl_q08_p_9sfeu3 "0"^^xsd:string ;
+    niiri:cbcl_q09_p_3sd5n8h "0"^^xsd:string ;
+    niiri:cbcl_q100_p_26p1vgn "0"^^xsd:string ;
+    niiri:cbcl_q101_p_1623q8m "0"^^xsd:string ;
+    niiri:cbcl_q102_p_1kmlejj "0"^^xsd:string ;
+    niiri:cbcl_q103_p_1dubu4f "0"^^xsd:string ;
+    niiri:cbcl_q104_p_1c2cflb "0"^^xsd:string ;
+    niiri:cbcl_q105_p_1opj2f0 "0"^^xsd:string ;
+    niiri:cbcl_q106_p_1bvdf4s "0"^^xsd:string ;
+    niiri:cbcl_q107_p_3alk8ie "0"^^xsd:string ;
+    niiri:cbcl_q108_p_1larnb6 "0"^^xsd:string ;
+    niiri:cbcl_q109_p_3cocsnr "0"^^xsd:string ;
+    niiri:cbcl_q10_p_18n2tcq "0"^^xsd:string ;
+    niiri:cbcl_q110_p_2au6pp2 "0"^^xsd:string ;
+    niiri:cbcl_q111_p_1rbl72j "0"^^xsd:string ;
+    niiri:cbcl_q112_p_d561sf "0"^^xsd:string ;
+    niiri:cbcl_q11_p_32uunvd "0"^^xsd:string ;
+    niiri:cbcl_q12_p_6lb02h "0"^^xsd:string ;
+    niiri:cbcl_q13_p_2r30g71 "0"^^xsd:string ;
+    niiri:cbcl_q14_p_35r46c6 "0"^^xsd:string ;
+    niiri:cbcl_q15_p_349f1af "0"^^xsd:string ;
+    niiri:cbcl_q16_p_126slt7 "0"^^xsd:string ;
+    niiri:cbcl_q17_p_us1d7m "0"^^xsd:string ;
+    niiri:cbcl_q18_p_2nak66g "0"^^xsd:string ;
+    niiri:cbcl_q19_p_gnrg93 "0"^^xsd:string ;
+    niiri:cbcl_q20_p_1ls69g4 "0"^^xsd:string ;
+    niiri:cbcl_q21_p_2sun869 "0"^^xsd:string ;
+    niiri:cbcl_q22_p_1p27v1l "0"^^xsd:string ;
+    niiri:cbcl_q23_p_8ibn7b "0"^^xsd:string ;
+    niiri:cbcl_q24_p_6dahan "0"^^xsd:string ;
+    niiri:cbcl_q25_p_3vdo9kl "0"^^xsd:string ;
+    niiri:cbcl_q26_p_o7k8va "0"^^xsd:string ;
+    niiri:cbcl_q27_p_bvrbpk "0"^^xsd:string ;
+    niiri:cbcl_q28_p_26i22q0 "0"^^xsd:string ;
+    niiri:cbcl_q29_p_38tegbc "0"^^xsd:string ;
+    niiri:cbcl_q30_p_29jj8kt "0"^^xsd:string ;
+    niiri:cbcl_q31_p_17djmpf "0"^^xsd:string ;
+    niiri:cbcl_q32_p_hs1853 "0"^^xsd:string ;
+    niiri:cbcl_q33_p_2ub160t "0"^^xsd:string ;
+    niiri:cbcl_q34_p_s41fjf "0"^^xsd:string ;
+    niiri:cbcl_q35_p_3608qhq "0"^^xsd:string ;
+    niiri:cbcl_q36_p_2g5829t "0"^^xsd:string ;
+    niiri:cbcl_q37_p_20uv3tk "0"^^xsd:string ;
+    niiri:cbcl_q38_p_33uckqe "0"^^xsd:string ;
+    niiri:cbcl_q39_p_3ch4n17 "0"^^xsd:string ;
+    niiri:cbcl_q40_p_mkbr21 "0"^^xsd:string ;
+    niiri:cbcl_q41_p_1td4168 "0"^^xsd:string ;
+    niiri:cbcl_q42_p_1n4s6cl "0"^^xsd:string ;
+    niiri:cbcl_q43_p_1iaqkgl "0"^^xsd:string ;
+    niiri:cbcl_q44_p_q8t7sk "1"^^xsd:string ;
+    niiri:cbcl_q45_p_2o1bi2v "0"^^xsd:string ;
+    niiri:cbcl_q46_p_1d0hlil "0"^^xsd:string ;
+    niiri:cbcl_q47_p_2nd479k "0"^^xsd:string ;
+    niiri:cbcl_q48_p_tr175q "0"^^xsd:string ;
+    niiri:cbcl_q49_p_2mkga1v "0"^^xsd:string ;
+    niiri:cbcl_q50_p_1l6v96f "0"^^xsd:string ;
+    niiri:cbcl_q51_p_3i8dsqa "0"^^xsd:string ;
+    niiri:cbcl_q52_p_10gl5f3 "0"^^xsd:string ;
+    niiri:cbcl_q53_p_j0bi9e "0"^^xsd:string ;
+    niiri:cbcl_q54_p_igj833 "0"^^xsd:string ;
+    niiri:cbcl_q55_p_3mi44i2 "0"^^xsd:string ;
+    niiri:cbcl_q56a_p_3vp6dm3 "0"^^xsd:string ;
+    niiri:cbcl_q56b_p_2jgq3ms "0"^^xsd:string ;
+    niiri:cbcl_q56c_p_20n298p "0"^^xsd:string ;
+    niiri:cbcl_q56d_p_2qaiifg "0"^^xsd:string ;
+    niiri:cbcl_q56e_p_d8otkb "0"^^xsd:string ;
+    niiri:cbcl_q56f_p_1fspiun "0"^^xsd:string ;
+    niiri:cbcl_q56g_p_ol34s2 "0"^^xsd:string ;
+    niiri:cbcl_q56h_p_2rs611k "0"^^xsd:string ;
+    niiri:cbcl_q57_p_qfnikt "0"^^xsd:string ;
+    niiri:cbcl_q58_p_3b9bvg6 "0"^^xsd:string ;
+    niiri:cbcl_q59_p_19bc5a0 "0"^^xsd:string ;
+    niiri:cbcl_q60_p_37r0vao "0"^^xsd:string ;
+    niiri:cbcl_q61_p_q9in4o "0"^^xsd:string ;
+    niiri:cbcl_q62_p_1guokm2 "0"^^xsd:string ;
+    niiri:cbcl_q63_p_3r5f1kq "0"^^xsd:string ;
+    niiri:cbcl_q64_p_ub5jg9 "0"^^xsd:string ;
+    niiri:cbcl_q65_p_15o2bb "0"^^xsd:string ;
+    niiri:cbcl_q66_p_1jnrvte "0"^^xsd:string ;
+    niiri:cbcl_q67_p_1nv4vvl "0"^^xsd:string ;
+    niiri:cbcl_q68_p_299n0la "0"^^xsd:string ;
+    niiri:cbcl_q69_p_hgjk1s "0"^^xsd:string ;
+    niiri:cbcl_q70_p_n7i60r "0"^^xsd:string ;
+    niiri:cbcl_q71_p_1o6ibi2 "0"^^xsd:string ;
+    niiri:cbcl_q72_p_20coill "0"^^xsd:string ;
+    niiri:cbcl_q73_p_2cooil1 "0"^^xsd:string ;
+    niiri:cbcl_q74_p_1p0slk "0"^^xsd:string ;
+    niiri:cbcl_q75_p_2q0cbhd "0"^^xsd:string ;
+    niiri:cbcl_q76_p_1vjhssr "0"^^xsd:string ;
+    niiri:cbcl_q77_p_3mrvbv1 "0"^^xsd:string ;
+    niiri:cbcl_q78_p_2tpjrdf "0"^^xsd:string ;
+    niiri:cbcl_q79_p_ecg9gk "2"^^xsd:string ;
+    niiri:cbcl_q80_p_3581qdf "0"^^xsd:string ;
+    niiri:cbcl_q81_p_2fgbb3 "0"^^xsd:string ;
+    niiri:cbcl_q82_p_lnk7b8 "0"^^xsd:string ;
+    niiri:cbcl_q83_p_c71b5e "0"^^xsd:string ;
+    niiri:cbcl_q84_p_jbsb2o "0"^^xsd:string ;
+    niiri:cbcl_q85_p_22l7eh0 "0"^^xsd:string ;
+    niiri:cbcl_q86_p_2t1bdgr "0"^^xsd:string ;
+    niiri:cbcl_q87_p_1rne6bk "0"^^xsd:string ;
+    niiri:cbcl_q88_p_3gopm3a "0"^^xsd:string ;
+    niiri:cbcl_q89_p_15d1mco "0"^^xsd:string ;
+    niiri:cbcl_q90_p_3oakgfb "0"^^xsd:string ;
+    niiri:cbcl_q91_p_30079nc "0"^^xsd:string ;
+    niiri:cbcl_q92_p_avvkjt "0"^^xsd:string ;
+    niiri:cbcl_q93_p_fe5dae "0"^^xsd:string ;
+    niiri:cbcl_q94_p_1u2su4e "0"^^xsd:string ;
+    niiri:cbcl_q95_p_25vu4ud "0"^^xsd:string ;
+    niiri:cbcl_q96_p_2eq23nc "0"^^xsd:string ;
+    niiri:cbcl_q97_p_2vmlkna "0"^^xsd:string ;
+    niiri:cbcl_q98_p_2g7uvpa "0"^^xsd:string ;
+    niiri:cbcl_q99_p_degmk "0"^^xsd:string ;
+    niiri:cbcl_select_language___1_fki6oe "0"^^xsd:string ;
+    niiri:collection_id_3t0ftjn "1"^^xsd:string ;
+    niiri:collection_title_1c302s1 "fake Adolescent Brain Cognitive Development Study (fABCD)"^^xsd:string ;
+    niiri:dataset_id_30hh82b "1000"^^xsd:string ;
+    niiri:eventname_37mm0ke "1_year_follow_up_y_arm_1"^^xsd:string ;
+    niiri:interview_age_1l03vd1 "133"^^xsd:string ;
+    niiri:interview_date_1lfivho "6/1/18"^^xsd:string ;
+    niiri:sex_2j8l88m "F"^^xsd:string ;
+    niiri:study_cohort_name_27b2pno "fABCD 3.0 Data Release"^^xsd:string ;
+    niiri:subjectkey_3vulicm "NDAR_INV00000006"^^xsd:string ;
+    niiri:timept_3lq661u "NaN"^^xsd:double ;
+    nfo:filename "abcd_cbcl01_simdata.csv"^^xsd:string ;
+    prov:Location "file:/abcd_cbcl01_simdata.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:e22f81c4-c6c9-11ec-982b-9810e8f107c4 .
+
+niiri:abcd_cbcl01_id_1ig21p a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "abcd_cbcl01_id" ;
+    dct:description "" ;
+    nidm:sourceVariable "abcd_cbcl01_id" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:c2202ef4-c6c9-11ec-982b-9810e8f107c4 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:abcd_cbcl01_id_1ig21p "100"^^xsd:string ;
+    niiri:cbcl_q01_p_1o5q0gm "1"^^xsd:string ;
+    niiri:cbcl_q02_p_283kfgr "0"^^xsd:string ;
+    niiri:cbcl_q03_p_3lfsdtj "1"^^xsd:string ;
+    niiri:cbcl_q04_p_3himmmf "0"^^xsd:string ;
+    niiri:cbcl_q05_p_p70ovm "0"^^xsd:string ;
+    niiri:cbcl_q06_p_260pa41 "0"^^xsd:string ;
+    niiri:cbcl_q07_p_1cmsfmp "1"^^xsd:string ;
+    niiri:cbcl_q08_p_9sfeu3 "1"^^xsd:string ;
+    niiri:cbcl_q09_p_3sd5n8h "0"^^xsd:string ;
+    niiri:cbcl_q100_p_26p1vgn "0"^^xsd:string ;
+    niiri:cbcl_q101_p_1623q8m "0"^^xsd:string ;
+    niiri:cbcl_q102_p_1kmlejj "0"^^xsd:string ;
+    niiri:cbcl_q103_p_1dubu4f "0"^^xsd:string ;
+    niiri:cbcl_q104_p_1c2cflb "0"^^xsd:string ;
+    niiri:cbcl_q105_p_1opj2f0 "0"^^xsd:string ;
+    niiri:cbcl_q106_p_1bvdf4s "0"^^xsd:string ;
+    niiri:cbcl_q107_p_3alk8ie "0"^^xsd:string ;
+    niiri:cbcl_q108_p_1larnb6 "0"^^xsd:string ;
+    niiri:cbcl_q109_p_3cocsnr "1"^^xsd:string ;
+    niiri:cbcl_q10_p_18n2tcq "0"^^xsd:string ;
+    niiri:cbcl_q110_p_2au6pp2 "0"^^xsd:string ;
+    niiri:cbcl_q111_p_1rbl72j "0"^^xsd:string ;
+    niiri:cbcl_q112_p_d561sf "0"^^xsd:string ;
+    niiri:cbcl_q11_p_32uunvd "0"^^xsd:string ;
+    niiri:cbcl_q12_p_6lb02h "0"^^xsd:string ;
+    niiri:cbcl_q13_p_2r30g71 "0"^^xsd:string ;
+    niiri:cbcl_q14_p_35r46c6 "0"^^xsd:string ;
+    niiri:cbcl_q15_p_349f1af "0"^^xsd:string ;
+    niiri:cbcl_q16_p_126slt7 "0"^^xsd:string ;
+    niiri:cbcl_q17_p_us1d7m "1"^^xsd:string ;
+    niiri:cbcl_q18_p_2nak66g "0"^^xsd:string ;
+    niiri:cbcl_q19_p_gnrg93 "0"^^xsd:string ;
+    niiri:cbcl_q20_p_1ls69g4 "0"^^xsd:string ;
+    niiri:cbcl_q21_p_2sun869 "0"^^xsd:string ;
+    niiri:cbcl_q22_p_1p27v1l "0"^^xsd:string ;
+    niiri:cbcl_q23_p_8ibn7b "0"^^xsd:string ;
+    niiri:cbcl_q24_p_6dahan "0"^^xsd:string ;
+    niiri:cbcl_q25_p_3vdo9kl "0"^^xsd:string ;
+    niiri:cbcl_q26_p_o7k8va "0"^^xsd:string ;
+    niiri:cbcl_q27_p_bvrbpk "0"^^xsd:string ;
+    niiri:cbcl_q28_p_26i22q0 "0"^^xsd:string ;
+    niiri:cbcl_q29_p_38tegbc "0"^^xsd:string ;
+    niiri:cbcl_q30_p_29jj8kt "0"^^xsd:string ;
+    niiri:cbcl_q31_p_17djmpf "0"^^xsd:string ;
+    niiri:cbcl_q32_p_hs1853 "0"^^xsd:string ;
+    niiri:cbcl_q33_p_2ub160t "0"^^xsd:string ;
+    niiri:cbcl_q34_p_s41fjf "0"^^xsd:string ;
+    niiri:cbcl_q35_p_3608qhq "0"^^xsd:string ;
+    niiri:cbcl_q36_p_2g5829t "0"^^xsd:string ;
+    niiri:cbcl_q37_p_20uv3tk "0"^^xsd:string ;
+    niiri:cbcl_q38_p_33uckqe "0"^^xsd:string ;
+    niiri:cbcl_q39_p_3ch4n17 "0"^^xsd:string ;
+    niiri:cbcl_q40_p_mkbr21 "0"^^xsd:string ;
+    niiri:cbcl_q41_p_1td4168 "0"^^xsd:string ;
+    niiri:cbcl_q42_p_1n4s6cl "0"^^xsd:string ;
+    niiri:cbcl_q43_p_1iaqkgl "0"^^xsd:string ;
+    niiri:cbcl_q44_p_q8t7sk "0"^^xsd:string ;
+    niiri:cbcl_q45_p_2o1bi2v "0"^^xsd:string ;
+    niiri:cbcl_q46_p_1d0hlil "0"^^xsd:string ;
+    niiri:cbcl_q47_p_2nd479k "0"^^xsd:string ;
+    niiri:cbcl_q48_p_tr175q "0"^^xsd:string ;
+    niiri:cbcl_q49_p_2mkga1v "0"^^xsd:string ;
+    niiri:cbcl_q50_p_1l6v96f "0"^^xsd:string ;
+    niiri:cbcl_q51_p_3i8dsqa "0"^^xsd:string ;
+    niiri:cbcl_q52_p_10gl5f3 "0"^^xsd:string ;
+    niiri:cbcl_q53_p_j0bi9e "0"^^xsd:string ;
+    niiri:cbcl_q54_p_igj833 "0"^^xsd:string ;
+    niiri:cbcl_q55_p_3mi44i2 "0"^^xsd:string ;
+    niiri:cbcl_q56a_p_3vp6dm3 "0"^^xsd:string ;
+    niiri:cbcl_q56b_p_2jgq3ms "0"^^xsd:string ;
+    niiri:cbcl_q56c_p_20n298p "0"^^xsd:string ;
+    niiri:cbcl_q56d_p_2qaiifg "0"^^xsd:string ;
+    niiri:cbcl_q56e_p_d8otkb "0"^^xsd:string ;
+    niiri:cbcl_q56f_p_1fspiun "0"^^xsd:string ;
+    niiri:cbcl_q56g_p_ol34s2 "0"^^xsd:string ;
+    niiri:cbcl_q56h_p_2rs611k "0"^^xsd:string ;
+    niiri:cbcl_q57_p_qfnikt "0"^^xsd:string ;
+    niiri:cbcl_q58_p_3b9bvg6 "0"^^xsd:string ;
+    niiri:cbcl_q59_p_19bc5a0 "0"^^xsd:string ;
+    niiri:cbcl_q60_p_37r0vao "0"^^xsd:string ;
+    niiri:cbcl_q61_p_q9in4o "0"^^xsd:string ;
+    niiri:cbcl_q62_p_1guokm2 "0"^^xsd:string ;
+    niiri:cbcl_q63_p_3r5f1kq "0"^^xsd:string ;
+    niiri:cbcl_q64_p_ub5jg9 "0"^^xsd:string ;
+    niiri:cbcl_q65_p_15o2bb "0"^^xsd:string ;
+    niiri:cbcl_q66_p_1jnrvte "0"^^xsd:string ;
+    niiri:cbcl_q67_p_1nv4vvl "0"^^xsd:string ;
+    niiri:cbcl_q68_p_299n0la "0"^^xsd:string ;
+    niiri:cbcl_q69_p_hgjk1s "0"^^xsd:string ;
+    niiri:cbcl_q70_p_n7i60r "0"^^xsd:string ;
+    niiri:cbcl_q71_p_1o6ibi2 "0"^^xsd:string ;
+    niiri:cbcl_q72_p_20coill "0"^^xsd:string ;
+    niiri:cbcl_q73_p_2cooil1 "0"^^xsd:string ;
+    niiri:cbcl_q74_p_1p0slk "1"^^xsd:string ;
+    niiri:cbcl_q75_p_2q0cbhd "0"^^xsd:string ;
+    niiri:cbcl_q76_p_1vjhssr "1"^^xsd:string ;
+    niiri:cbcl_q77_p_3mrvbv1 "0"^^xsd:string ;
+    niiri:cbcl_q78_p_2tpjrdf "1"^^xsd:string ;
+    niiri:cbcl_q79_p_ecg9gk "0"^^xsd:string ;
+    niiri:cbcl_q80_p_3581qdf "0"^^xsd:string ;
+    niiri:cbcl_q81_p_2fgbb3 "0"^^xsd:string ;
+    niiri:cbcl_q82_p_lnk7b8 "0"^^xsd:string ;
+    niiri:cbcl_q83_p_c71b5e "0"^^xsd:string ;
+    niiri:cbcl_q84_p_jbsb2o "0"^^xsd:string ;
+    niiri:cbcl_q85_p_22l7eh0 "0"^^xsd:string ;
+    niiri:cbcl_q86_p_2t1bdgr "0"^^xsd:string ;
+    niiri:cbcl_q87_p_1rne6bk "0"^^xsd:string ;
+    niiri:cbcl_q88_p_3gopm3a "0"^^xsd:string ;
+    niiri:cbcl_q89_p_15d1mco "0"^^xsd:string ;
+    niiri:cbcl_q90_p_3oakgfb "0"^^xsd:string ;
+    niiri:cbcl_q91_p_30079nc "0"^^xsd:string ;
+    niiri:cbcl_q92_p_avvkjt "1"^^xsd:string ;
+    niiri:cbcl_q93_p_fe5dae "1"^^xsd:string ;
+    niiri:cbcl_q94_p_1u2su4e "0"^^xsd:string ;
+    niiri:cbcl_q95_p_25vu4ud "0"^^xsd:string ;
+    niiri:cbcl_q96_p_2eq23nc "0"^^xsd:string ;
+    niiri:cbcl_q97_p_2vmlkna "0"^^xsd:string ;
+    niiri:cbcl_q98_p_2g7uvpa "0"^^xsd:string ;
+    niiri:cbcl_q99_p_degmk "0"^^xsd:string ;
+    niiri:cbcl_select_language___1_fki6oe "0"^^xsd:string ;
+    niiri:collection_id_3t0ftjn "1"^^xsd:string ;
+    niiri:collection_title_1c302s1 "fake Adolescent Brain Cognitive Development Study (fABCD)"^^xsd:string ;
+    niiri:dataset_id_30hh82b "1000"^^xsd:string ;
+    niiri:eventname_37mm0ke "baseline_year_1_arm_1"^^xsd:string ;
+    niiri:interview_age_1l03vd1 "113"^^xsd:string ;
+    niiri:interview_date_1lfivho "3/1/18"^^xsd:string ;
+    niiri:sex_2j8l88m "M"^^xsd:string ;
+    niiri:study_cohort_name_27b2pno "fABCD 3.0 Data Release"^^xsd:string ;
+    niiri:subjectkey_3vulicm "NDAR_INV00000003"^^xsd:string ;
+    niiri:timept_3lq661u "NaN"^^xsd:double ;
+    nfo:filename "abcd_cbcl01_simdata.csv"^^xsd:string ;
+    prov:Location "file:/abcd_cbcl01_simdata.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:e2202c42-c6c9-11ec-982b-9810e8f107c4 .
+
+niiri:c234e90c-c6c9-11ec-982b-9810e8f107c4 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:abcd_cbcl01_id_1ig21p "100"^^xsd:string ;
+    niiri:cbcl_q01_p_1o5q0gm "1"^^xsd:string ;
+    niiri:cbcl_q02_p_283kfgr "0"^^xsd:string ;
+    niiri:cbcl_q03_p_3lfsdtj "1"^^xsd:string ;
+    niiri:cbcl_q04_p_3himmmf "1"^^xsd:string ;
+    niiri:cbcl_q05_p_p70ovm "0"^^xsd:string ;
+    niiri:cbcl_q06_p_260pa41 "0"^^xsd:string ;
+    niiri:cbcl_q07_p_1cmsfmp "1"^^xsd:string ;
+    niiri:cbcl_q08_p_9sfeu3 "1"^^xsd:string ;
+    niiri:cbcl_q09_p_3sd5n8h "1"^^xsd:string ;
+    niiri:cbcl_q100_p_26p1vgn "0"^^xsd:string ;
+    niiri:cbcl_q101_p_1623q8m "0"^^xsd:string ;
+    niiri:cbcl_q102_p_1kmlejj "0"^^xsd:string ;
+    niiri:cbcl_q103_p_1dubu4f "0"^^xsd:string ;
+    niiri:cbcl_q104_p_1c2cflb "1"^^xsd:string ;
+    niiri:cbcl_q105_p_1opj2f0 "0"^^xsd:string ;
+    niiri:cbcl_q106_p_1bvdf4s "0"^^xsd:string ;
+    niiri:cbcl_q107_p_3alk8ie "0"^^xsd:string ;
+    niiri:cbcl_q108_p_1larnb6 "2"^^xsd:string ;
+    niiri:cbcl_q109_p_3cocsnr "1"^^xsd:string ;
+    niiri:cbcl_q10_p_18n2tcq "1"^^xsd:string ;
+    niiri:cbcl_q110_p_2au6pp2 "0"^^xsd:string ;
+    niiri:cbcl_q111_p_1rbl72j "0"^^xsd:string ;
+    niiri:cbcl_q112_p_d561sf "0"^^xsd:string ;
+    niiri:cbcl_q11_p_32uunvd "1"^^xsd:string ;
+    niiri:cbcl_q12_p_6lb02h "0"^^xsd:string ;
+    niiri:cbcl_q13_p_2r30g71 "0"^^xsd:string ;
+    niiri:cbcl_q14_p_35r46c6 "0"^^xsd:string ;
+    niiri:cbcl_q15_p_349f1af "0"^^xsd:string ;
+    niiri:cbcl_q16_p_126slt7 "0"^^xsd:string ;
+    niiri:cbcl_q17_p_us1d7m "0"^^xsd:string ;
+    niiri:cbcl_q18_p_2nak66g "0"^^xsd:string ;
+    niiri:cbcl_q19_p_gnrg93 "1"^^xsd:string ;
+    niiri:cbcl_q20_p_1ls69g4 "0"^^xsd:string ;
+    niiri:cbcl_q21_p_2sun869 "0"^^xsd:string ;
+    niiri:cbcl_q22_p_1p27v1l "0"^^xsd:string ;
+    niiri:cbcl_q23_p_8ibn7b "0"^^xsd:string ;
+    niiri:cbcl_q24_p_6dahan "0"^^xsd:string ;
+    niiri:cbcl_q25_p_3vdo9kl "0"^^xsd:string ;
+    niiri:cbcl_q26_p_o7k8va "0"^^xsd:string ;
+    niiri:cbcl_q27_p_bvrbpk "0"^^xsd:string ;
+    niiri:cbcl_q28_p_26i22q0 "0"^^xsd:string ;
+    niiri:cbcl_q29_p_38tegbc "0"^^xsd:string ;
+    niiri:cbcl_q30_p_29jj8kt "0"^^xsd:string ;
+    niiri:cbcl_q31_p_17djmpf "0"^^xsd:string ;
+    niiri:cbcl_q32_p_hs1853 "0"^^xsd:string ;
+    niiri:cbcl_q33_p_2ub160t "1"^^xsd:string ;
+    niiri:cbcl_q34_p_s41fjf "0"^^xsd:string ;
+    niiri:cbcl_q35_p_3608qhq "0"^^xsd:string ;
+    niiri:cbcl_q36_p_2g5829t "1"^^xsd:string ;
+    niiri:cbcl_q37_p_20uv3tk "0"^^xsd:string ;
+    niiri:cbcl_q38_p_33uckqe "0"^^xsd:string ;
+    niiri:cbcl_q39_p_3ch4n17 "0"^^xsd:string ;
+    niiri:cbcl_q40_p_mkbr21 "0"^^xsd:string ;
+    niiri:cbcl_q41_p_1td4168 "1"^^xsd:string ;
+    niiri:cbcl_q42_p_1n4s6cl "0"^^xsd:string ;
+    niiri:cbcl_q43_p_1iaqkgl "0"^^xsd:string ;
+    niiri:cbcl_q44_p_q8t7sk "2"^^xsd:string ;
+    niiri:cbcl_q45_p_2o1bi2v "0"^^xsd:string ;
+    niiri:cbcl_q46_p_1d0hlil "0"^^xsd:string ;
+    niiri:cbcl_q47_p_2nd479k "1"^^xsd:string ;
+    niiri:cbcl_q48_p_tr175q "0"^^xsd:string ;
+    niiri:cbcl_q49_p_2mkga1v "0"^^xsd:string ;
+    niiri:cbcl_q50_p_1l6v96f "0"^^xsd:string ;
+    niiri:cbcl_q51_p_3i8dsqa "0"^^xsd:string ;
+    niiri:cbcl_q52_p_10gl5f3 "0"^^xsd:string ;
+    niiri:cbcl_q53_p_j0bi9e "0"^^xsd:string ;
+    niiri:cbcl_q54_p_igj833 "0"^^xsd:string ;
+    niiri:cbcl_q55_p_3mi44i2 "0"^^xsd:string ;
+    niiri:cbcl_q56a_p_3vp6dm3 "0"^^xsd:string ;
+    niiri:cbcl_q56b_p_2jgq3ms "0"^^xsd:string ;
+    niiri:cbcl_q56c_p_20n298p "0"^^xsd:string ;
+    niiri:cbcl_q56d_p_2qaiifg "0"^^xsd:string ;
+    niiri:cbcl_q56e_p_d8otkb "1"^^xsd:string ;
+    niiri:cbcl_q56f_p_1fspiun "1"^^xsd:string ;
+    niiri:cbcl_q56g_p_ol34s2 "0"^^xsd:string ;
+    niiri:cbcl_q56h_p_2rs611k "0"^^xsd:string ;
+    niiri:cbcl_q57_p_qfnikt "0"^^xsd:string ;
+    niiri:cbcl_q58_p_3b9bvg6 "1"^^xsd:string ;
+    niiri:cbcl_q59_p_19bc5a0 "0"^^xsd:string ;
+    niiri:cbcl_q60_p_37r0vao "0"^^xsd:string ;
+    niiri:cbcl_q61_p_q9in4o "0"^^xsd:string ;
+    niiri:cbcl_q62_p_1guokm2 "1"^^xsd:string ;
+    niiri:cbcl_q63_p_3r5f1kq "0"^^xsd:string ;
+    niiri:cbcl_q64_p_ub5jg9 "0"^^xsd:string ;
+    niiri:cbcl_q65_p_15o2bb "0"^^xsd:string ;
+    niiri:cbcl_q66_p_1jnrvte "0"^^xsd:string ;
+    niiri:cbcl_q67_p_1nv4vvl "0"^^xsd:string ;
+    niiri:cbcl_q68_p_299n0la "0"^^xsd:string ;
+    niiri:cbcl_q69_p_hgjk1s "0"^^xsd:string ;
+    niiri:cbcl_q70_p_n7i60r "0"^^xsd:string ;
+    niiri:cbcl_q71_p_1o6ibi2 "0"^^xsd:string ;
+    niiri:cbcl_q72_p_20coill "0"^^xsd:string ;
+    niiri:cbcl_q73_p_2cooil1 "0"^^xsd:string ;
+    niiri:cbcl_q74_p_1p0slk "1"^^xsd:string ;
+    niiri:cbcl_q75_p_2q0cbhd "0"^^xsd:string ;
+    niiri:cbcl_q76_p_1vjhssr "0"^^xsd:string ;
+    niiri:cbcl_q77_p_3mrvbv1 "0"^^xsd:string ;
+    niiri:cbcl_q78_p_2tpjrdf "1"^^xsd:string ;
+    niiri:cbcl_q79_p_ecg9gk "0"^^xsd:string ;
+    niiri:cbcl_q80_p_3581qdf "0"^^xsd:string ;
+    niiri:cbcl_q81_p_2fgbb3 "0"^^xsd:string ;
+    niiri:cbcl_q82_p_lnk7b8 "0"^^xsd:string ;
+    niiri:cbcl_q83_p_c71b5e "0"^^xsd:string ;
+    niiri:cbcl_q84_p_jbsb2o "0"^^xsd:string ;
+    niiri:cbcl_q85_p_22l7eh0 "0"^^xsd:string ;
+    niiri:cbcl_q86_p_2t1bdgr "1"^^xsd:string ;
+    niiri:cbcl_q87_p_1rne6bk "1"^^xsd:string ;
+    niiri:cbcl_q88_p_3gopm3a "1"^^xsd:string ;
+    niiri:cbcl_q89_p_15d1mco "0"^^xsd:string ;
+    niiri:cbcl_q90_p_3oakgfb "0"^^xsd:string ;
+    niiri:cbcl_q91_p_30079nc "0"^^xsd:string ;
+    niiri:cbcl_q92_p_avvkjt "0"^^xsd:string ;
+    niiri:cbcl_q93_p_fe5dae "2"^^xsd:string ;
+    niiri:cbcl_q94_p_1u2su4e "0"^^xsd:string ;
+    niiri:cbcl_q95_p_25vu4ud "0"^^xsd:string ;
+    niiri:cbcl_q96_p_2eq23nc "0"^^xsd:string ;
+    niiri:cbcl_q97_p_2vmlkna "0"^^xsd:string ;
+    niiri:cbcl_q98_p_2g7uvpa "0"^^xsd:string ;
+    niiri:cbcl_q99_p_degmk "0"^^xsd:string ;
+    niiri:cbcl_select_language___1_fki6oe "0"^^xsd:string ;
+    niiri:collection_id_3t0ftjn "1"^^xsd:string ;
+    niiri:collection_title_1c302s1 "fake Adolescent Brain Cognitive Development Study (fABCD)"^^xsd:string ;
+    niiri:dataset_id_30hh82b "1000"^^xsd:string ;
+    niiri:eventname_37mm0ke "1_year_follow_up_y_arm_1"^^xsd:string ;
+    niiri:interview_age_1l03vd1 "140"^^xsd:string ;
+    niiri:interview_date_1lfivho "7/1/19"^^xsd:string ;
+    niiri:sex_2j8l88m "M"^^xsd:string ;
+    niiri:study_cohort_name_27b2pno "fABCD 3.0 Data Release"^^xsd:string ;
+    niiri:subjectkey_3vulicm "NDAR_INV00000007"^^xsd:string ;
+    niiri:timept_3lq661u "NaN"^^xsd:double ;
+    nfo:filename "abcd_cbcl01_simdata.csv"^^xsd:string ;
+    prov:Location "file:/abcd_cbcl01_simdata.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:b234e628-c6c9-11ec-982b-9810e8f107c4 .
+
+niiri:c23a08ec-c6c9-11ec-982b-9810e8f107c4 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:abcd_cbcl01_id_1ig21p "100"^^xsd:string ;
+    niiri:cbcl_q01_p_1o5q0gm "0"^^xsd:string ;
+    niiri:cbcl_q02_p_283kfgr "0"^^xsd:string ;
+    niiri:cbcl_q03_p_3lfsdtj "0"^^xsd:string ;
+    niiri:cbcl_q04_p_3himmmf "1"^^xsd:string ;
+    niiri:cbcl_q05_p_p70ovm "0"^^xsd:string ;
+    niiri:cbcl_q06_p_260pa41 "0"^^xsd:string ;
+    niiri:cbcl_q07_p_1cmsfmp "0"^^xsd:string ;
+    niiri:cbcl_q08_p_9sfeu3 "0"^^xsd:string ;
+    niiri:cbcl_q09_p_3sd5n8h "0"^^xsd:string ;
+    niiri:cbcl_q100_p_26p1vgn "0"^^xsd:string ;
+    niiri:cbcl_q101_p_1623q8m "0"^^xsd:string ;
+    niiri:cbcl_q102_p_1kmlejj "0"^^xsd:string ;
+    niiri:cbcl_q103_p_1dubu4f "0"^^xsd:string ;
+    niiri:cbcl_q104_p_1c2cflb "0"^^xsd:string ;
+    niiri:cbcl_q105_p_1opj2f0 "0"^^xsd:string ;
+    niiri:cbcl_q106_p_1bvdf4s "0"^^xsd:string ;
+    niiri:cbcl_q107_p_3alk8ie "0"^^xsd:string ;
+    niiri:cbcl_q108_p_1larnb6 "0"^^xsd:string ;
+    niiri:cbcl_q109_p_3cocsnr "0"^^xsd:string ;
+    niiri:cbcl_q10_p_18n2tcq "0"^^xsd:string ;
+    niiri:cbcl_q110_p_2au6pp2 "0"^^xsd:string ;
+    niiri:cbcl_q111_p_1rbl72j "0"^^xsd:string ;
+    niiri:cbcl_q112_p_d561sf "0"^^xsd:string ;
+    niiri:cbcl_q11_p_32uunvd "0"^^xsd:string ;
+    niiri:cbcl_q12_p_6lb02h "0"^^xsd:string ;
+    niiri:cbcl_q13_p_2r30g71 "0"^^xsd:string ;
+    niiri:cbcl_q14_p_35r46c6 "0"^^xsd:string ;
+    niiri:cbcl_q15_p_349f1af "0"^^xsd:string ;
+    niiri:cbcl_q16_p_126slt7 "0"^^xsd:string ;
+    niiri:cbcl_q17_p_us1d7m "0"^^xsd:string ;
+    niiri:cbcl_q18_p_2nak66g "0"^^xsd:string ;
+    niiri:cbcl_q19_p_gnrg93 "0"^^xsd:string ;
+    niiri:cbcl_q20_p_1ls69g4 "0"^^xsd:string ;
+    niiri:cbcl_q21_p_2sun869 "0"^^xsd:string ;
+    niiri:cbcl_q22_p_1p27v1l "0"^^xsd:string ;
+    niiri:cbcl_q23_p_8ibn7b "0"^^xsd:string ;
+    niiri:cbcl_q24_p_6dahan "0"^^xsd:string ;
+    niiri:cbcl_q25_p_3vdo9kl "0"^^xsd:string ;
+    niiri:cbcl_q26_p_o7k8va "0"^^xsd:string ;
+    niiri:cbcl_q27_p_bvrbpk "0"^^xsd:string ;
+    niiri:cbcl_q28_p_26i22q0 "0"^^xsd:string ;
+    niiri:cbcl_q29_p_38tegbc "0"^^xsd:string ;
+    niiri:cbcl_q30_p_29jj8kt "0"^^xsd:string ;
+    niiri:cbcl_q31_p_17djmpf "0"^^xsd:string ;
+    niiri:cbcl_q32_p_hs1853 "0"^^xsd:string ;
+    niiri:cbcl_q33_p_2ub160t "0"^^xsd:string ;
+    niiri:cbcl_q34_p_s41fjf "0"^^xsd:string ;
+    niiri:cbcl_q35_p_3608qhq "0"^^xsd:string ;
+    niiri:cbcl_q36_p_2g5829t "0"^^xsd:string ;
+    niiri:cbcl_q37_p_20uv3tk "0"^^xsd:string ;
+    niiri:cbcl_q38_p_33uckqe "0"^^xsd:string ;
+    niiri:cbcl_q39_p_3ch4n17 "0"^^xsd:string ;
+    niiri:cbcl_q40_p_mkbr21 "0"^^xsd:string ;
+    niiri:cbcl_q41_p_1td4168 "0"^^xsd:string ;
+    niiri:cbcl_q42_p_1n4s6cl "0"^^xsd:string ;
+    niiri:cbcl_q43_p_1iaqkgl "0"^^xsd:string ;
+    niiri:cbcl_q44_p_q8t7sk "0"^^xsd:string ;
+    niiri:cbcl_q45_p_2o1bi2v "0"^^xsd:string ;
+    niiri:cbcl_q46_p_1d0hlil "0"^^xsd:string ;
+    niiri:cbcl_q47_p_2nd479k "0"^^xsd:string ;
+    niiri:cbcl_q48_p_tr175q "0"^^xsd:string ;
+    niiri:cbcl_q49_p_2mkga1v "0"^^xsd:string ;
+    niiri:cbcl_q50_p_1l6v96f "0"^^xsd:string ;
+    niiri:cbcl_q51_p_3i8dsqa "0"^^xsd:string ;
+    niiri:cbcl_q52_p_10gl5f3 "0"^^xsd:string ;
+    niiri:cbcl_q53_p_j0bi9e "0"^^xsd:string ;
+    niiri:cbcl_q54_p_igj833 "0"^^xsd:string ;
+    niiri:cbcl_q55_p_3mi44i2 "0"^^xsd:string ;
+    niiri:cbcl_q56a_p_3vp6dm3 "0"^^xsd:string ;
+    niiri:cbcl_q56b_p_2jgq3ms "0"^^xsd:string ;
+    niiri:cbcl_q56c_p_20n298p "0"^^xsd:string ;
+    niiri:cbcl_q56d_p_2qaiifg "0"^^xsd:string ;
+    niiri:cbcl_q56e_p_d8otkb "0"^^xsd:string ;
+    niiri:cbcl_q56f_p_1fspiun "0"^^xsd:string ;
+    niiri:cbcl_q56g_p_ol34s2 "0"^^xsd:string ;
+    niiri:cbcl_q56h_p_2rs611k "0"^^xsd:string ;
+    niiri:cbcl_q57_p_qfnikt "0"^^xsd:string ;
+    niiri:cbcl_q58_p_3b9bvg6 "1"^^xsd:string ;
+    niiri:cbcl_q59_p_19bc5a0 "0"^^xsd:string ;
+    niiri:cbcl_q60_p_37r0vao "0"^^xsd:string ;
+    niiri:cbcl_q61_p_q9in4o "0"^^xsd:string ;
+    niiri:cbcl_q62_p_1guokm2 "0"^^xsd:string ;
+    niiri:cbcl_q63_p_3r5f1kq "0"^^xsd:string ;
+    niiri:cbcl_q64_p_ub5jg9 "0"^^xsd:string ;
+    niiri:cbcl_q65_p_15o2bb "0"^^xsd:string ;
+    niiri:cbcl_q66_p_1jnrvte "0"^^xsd:string ;
+    niiri:cbcl_q67_p_1nv4vvl "0"^^xsd:string ;
+    niiri:cbcl_q68_p_299n0la "0"^^xsd:string ;
+    niiri:cbcl_q69_p_hgjk1s "0"^^xsd:string ;
+    niiri:cbcl_q70_p_n7i60r "0"^^xsd:string ;
+    niiri:cbcl_q71_p_1o6ibi2 "1"^^xsd:string ;
+    niiri:cbcl_q72_p_20coill "0"^^xsd:string ;
+    niiri:cbcl_q73_p_2cooil1 "0"^^xsd:string ;
+    niiri:cbcl_q74_p_1p0slk "0"^^xsd:string ;
+    niiri:cbcl_q75_p_2q0cbhd "0"^^xsd:string ;
+    niiri:cbcl_q76_p_1vjhssr "0"^^xsd:string ;
+    niiri:cbcl_q77_p_3mrvbv1 "0"^^xsd:string ;
+    niiri:cbcl_q78_p_2tpjrdf "0"^^xsd:string ;
+    niiri:cbcl_q79_p_ecg9gk "0"^^xsd:string ;
+    niiri:cbcl_q80_p_3581qdf "0"^^xsd:string ;
+    niiri:cbcl_q81_p_2fgbb3 "0"^^xsd:string ;
+    niiri:cbcl_q82_p_lnk7b8 "0"^^xsd:string ;
+    niiri:cbcl_q83_p_c71b5e "0"^^xsd:string ;
+    niiri:cbcl_q84_p_jbsb2o "0"^^xsd:string ;
+    niiri:cbcl_q85_p_22l7eh0 "0"^^xsd:string ;
+    niiri:cbcl_q86_p_2t1bdgr "0"^^xsd:string ;
+    niiri:cbcl_q87_p_1rne6bk "0"^^xsd:string ;
+    niiri:cbcl_q88_p_3gopm3a "0"^^xsd:string ;
+    niiri:cbcl_q89_p_15d1mco "0"^^xsd:string ;
+    niiri:cbcl_q90_p_3oakgfb "0"^^xsd:string ;
+    niiri:cbcl_q91_p_30079nc "0"^^xsd:string ;
+    niiri:cbcl_q92_p_avvkjt "0"^^xsd:string ;
+    niiri:cbcl_q93_p_fe5dae "0"^^xsd:string ;
+    niiri:cbcl_q94_p_1u2su4e "0"^^xsd:string ;
+    niiri:cbcl_q95_p_25vu4ud "0"^^xsd:string ;
+    niiri:cbcl_q96_p_2eq23nc "0"^^xsd:string ;
+    niiri:cbcl_q97_p_2vmlkna "0"^^xsd:string ;
+    niiri:cbcl_q98_p_2g7uvpa "0"^^xsd:string ;
+    niiri:cbcl_q99_p_degmk "0"^^xsd:string ;
+    niiri:cbcl_select_language___1_fki6oe "0"^^xsd:string ;
+    niiri:collection_id_3t0ftjn "1"^^xsd:string ;
+    niiri:collection_title_1c302s1 "fake Adolescent Brain Cognitive Development Study (fABCD)"^^xsd:string ;
+    niiri:dataset_id_30hh82b "1000"^^xsd:string ;
+    niiri:eventname_37mm0ke "2_year_follow_up_y_arm_1"^^xsd:string ;
+    niiri:interview_age_1l03vd1 "128"^^xsd:string ;
+    niiri:interview_date_1lfivho "8/1/19"^^xsd:string ;
+    niiri:sex_2j8l88m "F"^^xsd:string ;
+    niiri:study_cohort_name_27b2pno "fABCD 3.0 Data Release"^^xsd:string ;
+    niiri:subjectkey_3vulicm "NDAR_INV00000008"^^xsd:string ;
+    niiri:timept_3lq661u "NaN"^^xsd:double ;
+    nfo:filename "abcd_cbcl01_simdata.csv"^^xsd:string ;
+    prov:Location "file:/abcd_cbcl01_simdata.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:f23a0608-c6c9-11ec-982b-9810e8f107c4 .
+
+niiri:cbcl_q01_p_1o5q0gm a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q01_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_attention_r> ;
+    nidm:sourceVariable "cbcl_q01_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q02_p_283kfgr a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q02_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r> ;
+    nidm:sourceVariable "cbcl_q02_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q03_p_3lfsdtj a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q03_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_opposit_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r> ;
+    nidm:sourceVariable "cbcl_q03_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q04_p_3himmmf a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q04_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_adhd_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_attention_r> ;
+    nidm:sourceVariable "cbcl_q04_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q05_p_p70ovm a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q05_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_withdep_r> ;
+    nidm:sourceVariable "cbcl_q05_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q06_p_260pa41 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q06_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r> ;
+    nidm:sourceVariable "cbcl_q06_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q07_p_1cmsfmp a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q07_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r> ;
+    nidm:sourceVariable "cbcl_q07_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q08_p_9sfeu3 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q08_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_adhd_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_attention_r> ;
+    nidm:sourceVariable "cbcl_q08_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q09_p_3sd5n8h a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q09_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_ocd_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r> ;
+    nidm:sourceVariable "cbcl_q09_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q100_p_26p1vgn a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q100_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r> ;
+    nidm:sourceVariable "cbcl_q100_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q101_p_1623q8m a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q101_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r> ;
+    nidm:sourceVariable "cbcl_q101_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q102_p_1kmlejj a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q102_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_sct_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_withdep_r> ;
+    nidm:sourceVariable "cbcl_q102_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q103_p_1dubu4f a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q103_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_withdep_r> ;
+    nidm:sourceVariable "cbcl_q103_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q104_p_1c2cflb a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q104_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_adhd_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r> ;
+    nidm:sourceVariable "cbcl_q104_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q105_p_1opj2f0 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q105_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r> ;
+    nidm:sourceVariable "cbcl_q105_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q106_p_1bvdf4s a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q106_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r> ;
+    nidm:sourceVariable "cbcl_q106_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q107_p_3alk8ie a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q107_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r> ;
+    nidm:sourceVariable "cbcl_q107_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q108_p_1larnb6 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q108_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r> ;
+    nidm:sourceVariable "cbcl_q108_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q109_p_3cocsnr a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q109_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r> ;
+    nidm:sourceVariable "cbcl_q109_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q10_p_18n2tcq a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q10_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_adhd_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_attention_r> ;
+    nidm:sourceVariable "cbcl_q10_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q110_p_2au6pp2 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q110_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r> ;
+    nidm:sourceVariable "cbcl_q110_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q111_p_1rbl72j a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q111_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_withdep_r> ;
+    nidm:sourceVariable "cbcl_q111_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q112_p_d561sf a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q112_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_ocd_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_anxdisord_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r> ;
+    nidm:sourceVariable "cbcl_q112_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q11_p_32uunvd a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q11_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_anxdisord_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_social_r> ;
+    nidm:sourceVariable "cbcl_q11_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q12_p_6lb02h a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q12_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_social_r> ;
+    nidm:sourceVariable "cbcl_q12_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q13_p_2r30g71 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q13_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_sct_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_attention_r> ;
+    nidm:sourceVariable "cbcl_q13_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q14_p_35r46c6 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q14_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r> ;
+    nidm:sourceVariable "cbcl_q14_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q15_p_349f1af a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q15_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r> ;
+    nidm:sourceVariable "cbcl_q15_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q16_p_126slt7 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q16_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r> ;
+    nidm:sourceVariable "cbcl_q16_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q17_p_us1d7m a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q17_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_sct_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_attention_r> ;
+    nidm:sourceVariable "cbcl_q17_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q18_p_2nak66g a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q18_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r> ;
+    nidm:sourceVariable "cbcl_q18_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q19_p_gnrg93 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q19_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r> ;
+    nidm:sourceVariable "cbcl_q19_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q20_p_1ls69g4 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q20_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r> ;
+    nidm:sourceVariable "cbcl_q20_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q21_p_2sun869 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q21_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r> ;
+    nidm:sourceVariable "cbcl_q21_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q22_p_1p27v1l a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q22_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_opposit_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r> ;
+    nidm:sourceVariable "cbcl_q22_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q23_p_8ibn7b a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q23_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_opposit_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r> ;
+    nidm:sourceVariable "cbcl_q23_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q24_p_6dahan a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q24_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r> ;
+    nidm:sourceVariable "cbcl_q24_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q25_p_3vdo9kl a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q25_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_social_r> ;
+    nidm:sourceVariable "cbcl_q25_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q26_p_o7k8va a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q26_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r> ;
+    nidm:sourceVariable "cbcl_q26_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q27_p_bvrbpk a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q27_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_social_r> ;
+    nidm:sourceVariable "cbcl_q27_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q28_p_26i22q0 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q28_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r> ;
+    nidm:sourceVariable "cbcl_q28_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q29_p_38tegbc a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q29_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_anxdisord_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r> ;
+    nidm:sourceVariable "cbcl_q29_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q30_p_29jj8kt a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q30_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_anxdisord_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r> ;
+    nidm:sourceVariable "cbcl_q30_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q31_p_17djmpf a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q31_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_ocd_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_anxdisord_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r> ;
+    nidm:sourceVariable "cbcl_q31_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q32_p_hs1853 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q32_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_ocd_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r> ;
+    nidm:sourceVariable "cbcl_q32_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q33_p_2ub160t a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q33_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r> ;
+    nidm:sourceVariable "cbcl_q33_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q34_p_s41fjf a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q34_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_social_r> ;
+    nidm:sourceVariable "cbcl_q34_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q35_p_3608qhq a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q35_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r> ;
+    nidm:sourceVariable "cbcl_q35_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q36_p_2g5829t a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q36_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_social_r> ;
+    nidm:sourceVariable "cbcl_q36_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q37_p_20uv3tk a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q37_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r> ;
+    nidm:sourceVariable "cbcl_q37_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q38_p_33uckqe a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q38_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_social_r> ;
+    nidm:sourceVariable "cbcl_q38_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q39_p_3ch4n17 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q39_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r> ;
+    nidm:sourceVariable "cbcl_q39_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q40_p_mkbr21 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q40_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r> ;
+    nidm:sourceVariable "cbcl_q40_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q41_p_1td4168 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q41_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_adhd_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_attention_r> ;
+    nidm:sourceVariable "cbcl_q41_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q42_p_1n4s6cl a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q42_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_withdep_r> ;
+    nidm:sourceVariable "cbcl_q42_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q43_p_1iaqkgl a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q43_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r> ;
+    nidm:sourceVariable "cbcl_q43_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q44_p_q8t7sk a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q44_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r> ;
+    nidm:sourceVariable "cbcl_q44_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q45_p_2o1bi2v a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q45_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_anxdisord_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r> ;
+    nidm:sourceVariable "cbcl_q45_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q46_p_1d0hlil a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q46_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r> ;
+    nidm:sourceVariable "cbcl_q46_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q47_p_2nd479k a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q47_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_anxdisord_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_somatic_r> ;
+    nidm:sourceVariable "cbcl_q47_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q48_p_tr175q a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q48_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_social_r> ;
+    nidm:sourceVariable "cbcl_q48_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q49_p_2mkga1v a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q49_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_somatic_r> ;
+    nidm:sourceVariable "cbcl_q49_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q50_p_1l6v96f a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q50_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_anxdisord_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r> ;
+    nidm:sourceVariable "cbcl_q50_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q51_p_3i8dsqa a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q51_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_somatic_r> ;
+    nidm:sourceVariable "cbcl_q51_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q52_p_10gl5f3 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q52_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_ocd_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r> ;
+    nidm:sourceVariable "cbcl_q52_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q53_p_j0bi9e a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q53_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r> ;
+    nidm:sourceVariable "cbcl_q53_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q54_p_igj833 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q54_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_somatic_r> ;
+    nidm:sourceVariable "cbcl_q54_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q55_p_3mi44i2 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q55_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r> ;
+    nidm:sourceVariable "cbcl_q55_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q56a_p_3vp6dm3 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q56a_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_somaticpr_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_somatic_r> ;
+    nidm:sourceVariable "cbcl_q56a_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q56b_p_2jgq3ms a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q56b_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_somaticpr_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_somatic_r> ;
+    nidm:sourceVariable "cbcl_q56b_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q56c_p_20n298p a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q56c_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_somaticpr_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_somatic_r> ;
+    nidm:sourceVariable "cbcl_q56c_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q56d_p_2qaiifg a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q56d_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_somaticpr_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_somatic_r> ;
+    nidm:sourceVariable "cbcl_q56d_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q56e_p_d8otkb a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q56e_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_somaticpr_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_somatic_r> ;
+    nidm:sourceVariable "cbcl_q56e_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q56f_p_1fspiun a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q56f_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_somaticpr_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_somatic_r> ;
+    nidm:sourceVariable "cbcl_q56f_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q56g_p_ol34s2 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q56g_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_somaticpr_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_somatic_r> ;
+    nidm:sourceVariable "cbcl_q56g_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q56h_p_2rs611k a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q56h_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r> ;
+    nidm:sourceVariable "cbcl_q56h_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q57_p_qfnikt a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q57_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r> ;
+    nidm:sourceVariable "cbcl_q57_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q58_p_3b9bvg6 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q58_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r> ;
+    nidm:sourceVariable "cbcl_q58_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q59_p_19bc5a0 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q59_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r> ;
+    nidm:sourceVariable "cbcl_q59_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q60_p_37r0vao a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q60_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r> ;
+    nidm:sourceVariable "cbcl_q60_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q61_p_q9in4o a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q61_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_attention_r> ;
+    nidm:sourceVariable "cbcl_q61_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q62_p_1guokm2 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q62_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_social_r> ;
+    nidm:sourceVariable "cbcl_q62_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q63_p_3r5f1kq a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q63_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r> ;
+    nidm:sourceVariable "cbcl_q63_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q64_p_ub5jg9 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q64_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_social_r> ;
+    nidm:sourceVariable "cbcl_q64_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q65_p_15o2bb a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q65_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_withdep_r> ;
+    nidm:sourceVariable "cbcl_q65_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q66_p_1jnrvte a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q66_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_ocd_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r> ;
+    nidm:sourceVariable "cbcl_q66_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q67_p_1nv4vvl a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q67_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r> ;
+    nidm:sourceVariable "cbcl_q67_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q68_p_299n0la a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q68_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r> ;
+    nidm:sourceVariable "cbcl_q68_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q69_p_hgjk1s a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q69_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_withdep_r> ;
+    nidm:sourceVariable "cbcl_q69_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q70_p_n7i60r a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q70_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r> ;
+    nidm:sourceVariable "cbcl_q70_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q71_p_1o6ibi2 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q71_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_anxdisord_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r> ;
+    nidm:sourceVariable "cbcl_q71_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q72_p_20coill a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q72_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r> ;
+    nidm:sourceVariable "cbcl_q72_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q73_p_2cooil1 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q73_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r> ;
+    nidm:sourceVariable "cbcl_q73_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q74_p_1p0slk a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q74_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r> ;
+    nidm:sourceVariable "cbcl_q74_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q75_p_2q0cbhd a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q75_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_withdep_r> ;
+    nidm:sourceVariable "cbcl_q75_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q76_p_1vjhssr a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q76_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r> ;
+    nidm:sourceVariable "cbcl_q76_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q77_p_3mrvbv1 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q77_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r> ;
+    nidm:sourceVariable "cbcl_q77_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q78_p_2tpjrdf a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q78_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_adhd_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_attention_r> ;
+    nidm:sourceVariable "cbcl_q78_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q79_p_ecg9gk a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q79_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_social_r> ;
+    nidm:sourceVariable "cbcl_q79_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q80_p_3581qdf a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q80_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_sct_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_attention_r> ;
+    nidm:sourceVariable "cbcl_q80_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q81_p_2fgbb3 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q81_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r> ;
+    nidm:sourceVariable "cbcl_q81_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q82_p_lnk7b8 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q82_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r> ;
+    nidm:sourceVariable "cbcl_q82_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q83_p_c71b5e a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q83_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r> ;
+    nidm:sourceVariable "cbcl_q83_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q84_p_jbsb2o a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q84_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_ocd_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r> ;
+    nidm:sourceVariable "cbcl_q84_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q85_p_22l7eh0 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q85_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_ocd_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r> ;
+    nidm:sourceVariable "cbcl_q85_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q86_p_2t1bdgr a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q86_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_opposit_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r> ;
+    nidm:sourceVariable "cbcl_q86_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q87_p_1rne6bk a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q87_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_07_stress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r> ;
+    nidm:sourceVariable "cbcl_q87_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q88_p_3gopm3a a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q88_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r> ;
+    nidm:sourceVariable "cbcl_q88_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q89_p_15d1mco a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q89_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r> ;
+    nidm:sourceVariable "cbcl_q89_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q90_p_3oakgfb a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q90_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r> ;
+    nidm:sourceVariable "cbcl_q90_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q91_p_30079nc a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q91_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_depress_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_anxdep_r> ;
+    nidm:sourceVariable "cbcl_q91_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q92_p_avvkjt a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q92_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_thought_r> ;
+    nidm:sourceVariable "cbcl_q92_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q93_p_fe5dae a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q93_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_adhd_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r> ;
+    nidm:sourceVariable "cbcl_q93_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q94_p_1u2su4e a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q94_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r> ;
+    nidm:sourceVariable "cbcl_q94_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q95_p_25vu4ud a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q95_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_opposit_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r> ;
+    nidm:sourceVariable "cbcl_q95_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q96_p_2eq23nc a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q96_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r> ;
+    nidm:sourceVariable "cbcl_q96_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q97_p_2vmlkna a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q97_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_dsm5_conduct_r>,
+        <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_aggressive_r> ;
+    nidm:sourceVariable "cbcl_q97_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q98_p_2g7uvpa a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q98_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_otherprob_r> ;
+    nidm:sourceVariable "cbcl_q98_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_q99_p_degmk a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_q99_p" ;
+    dct:description "" ;
+    nidm:isAbout <https://raw.githubusercontent.com/ReproNim/reproschema-library/e4a8488546662010cd9c187620354786d0eb8e57/activities/abcd_cbcls01/items/cbcl_scr_syn_rulebreak_r> ;
+    nidm:sourceVariable "cbcl_q99_p" ;
+    ilx:ilx_0739289 "ABCD" .
+
+niiri:cbcl_select_language___1_fki6oe a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "cbcl_select_language___1" ;
+    dct:description "" ;
+    nidm:sourceVariable "cbcl_select_language___1" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:collection_id_3t0ftjn a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "collection_id" ;
+    dct:description "" ;
+    nidm:sourceVariable "collection_id" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:collection_title_1c302s1 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "collection_title" ;
+    dct:description "" ;
+    nidm:sourceVariable "collection_title" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:d20d65c6-c6c9-11ec-982b-9810e8f107c4 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:abcd_cbcl01_id_1ig21p "abcd_cbcl01_id"^^xsd:string ;
+    niiri:cbcl_q01_p_1o5q0gm "Acts too young for his/her age Actúa como si fuera mucho menor que su edad"^^xsd:string ;
+    niiri:cbcl_q02_p_283kfgr "Drinks alcohol without parents' approval Toma bebidas alcohólicas sin permiso de los padres"^^xsd:string ;
+    niiri:cbcl_q03_p_3lfsdtj "Argues a lot Discute mucho"^^xsd:string ;
+    niiri:cbcl_q04_p_3himmmf "Fails to finish things he/she starts Deja sin terminar lo que él/ella empieza"^^xsd:string ;
+    niiri:cbcl_q05_p_p70ovm "There is very little he/she enjoys Disfruta de muy pocas cosas"^^xsd:string ;
+    niiri:cbcl_q06_p_260pa41 "Bowel movements outside toilet Hace sus necesidades en la ropa o en lugares inadecuados"^^xsd:string ;
+    niiri:cbcl_q07_p_1cmsfmp "Bragging, boasting  Es engreído(a), presumido(a)"^^xsd:string ;
+    niiri:cbcl_q08_p_9sfeu3 "Can't concentrate, can't pay attention for long No puede concentrarse o prestar atención por mucho tiempo"^^xsd:string ;
+    niiri:cbcl_q09_p_3sd5n8h "Can't get his/her mind off certain thoughts; obsessions Obsesiones, que quiere decir que no puede sacarse de la mente ciertos pensamientos"^^xsd:string ;
+    niiri:cbcl_q100_p_26p1vgn "Trouble sleeping No duerme bien"^^xsd:string ;
+    niiri:cbcl_q101_p_1623q8m "Truancy, skips school Falta a la escuela sin motivo"^^xsd:string ;
+    niiri:cbcl_q102_p_1kmlejj "Underactive, slow moving, or lacks energy Poco activo(a), lento(a), o le falta energía"^^xsd:string ;
+    niiri:cbcl_q103_p_1dubu4f "Unhappy, sad, or depressed Infeliz, triste, o deprimido(a)"^^xsd:string ;
+    niiri:cbcl_q104_p_1c2cflb "Unusually loud Más ruidoso(a) de lo común"^^xsd:string ;
+    niiri:cbcl_q105_p_1opj2f0 "Uses drugs for non medical purposes (don't include alcohol or tobacco) Usa drogas sin motivo médico (no incluya alcohol o tabaco)"^^xsd:string ;
+    niiri:cbcl_q106_p_1bvdf4s "Vandalism Comete actos de vandalismo, como romper ventanas u otras cosas"^^xsd:string ;
+    niiri:cbcl_q107_p_3alk8ie "Wets self during the day Se orina en la ropa durante el día"^^xsd:string ;
+    niiri:cbcl_q108_p_1larnb6 "Wets the bed Se orina en la cama"^^xsd:string ;
+    niiri:cbcl_q109_p_3cocsnr "Whining Se queja mucho"^^xsd:string ;
+    niiri:cbcl_q10_p_18n2tcq "Can't sit still, restless, or hyperactive No puede quedarse quieto(a); es inquieto(a) o hiperactivo(a)"^^xsd:string ;
+    niiri:cbcl_q110_p_2au6pp2 "Wishes to be of opposite sex Desea ser del sexo opuesto"^^xsd:string ;
+    niiri:cbcl_q111_p_1rbl72j "Withdrawn, doesn't get involved with others Se aísla, no se relaciona con los demás"^^xsd:string ;
+    niiri:cbcl_q112_p_d561sf "Worries Se preocupa mucho"^^xsd:string ;
+    niiri:cbcl_q11_p_32uunvd "Clings to adults or too dependent Es demasiado dependiente o apegado(a) a los adultos"^^xsd:string ;
+    niiri:cbcl_q12_p_6lb02h "Complains of loneliness Se queja de que se siente solo(a)"^^xsd:string ;
+    niiri:cbcl_q13_p_2r30g71 "Confused or seems to be in a fog Está confundido(a) o parece como si estuviera en las nubes"^^xsd:string ;
+    niiri:cbcl_q14_p_35r46c6 "Cries a lot Llora mucho"^^xsd:string ;
+    niiri:cbcl_q15_p_349f1af "Cruel to animals Es cruel con los animales"^^xsd:string ;
+    niiri:cbcl_q16_p_126slt7 "Cruelty, bullying, or meanness to others Es cruel, abusador(a), y malo(a) con los demás"^^xsd:string ;
+    niiri:cbcl_q17_p_us1d7m "Daydreams or gets lost in his/her thoughts Sueña despierto(a), se pierde en sus propios pensamientos"^^xsd:string ;
+    niiri:cbcl_q18_p_2nak66g "Deliberately harms self or attempts suicide Se hace daño a sí mismo(a) deliberadamente o ha intentado suicidarse"^^xsd:string ;
+    niiri:cbcl_q19_p_gnrg93 "Demands a lot of attention Exige mucha atención"^^xsd:string ;
+    niiri:cbcl_q20_p_1ls69g4 "Destroys his/her own things Destruye sus propias cosas"^^xsd:string ;
+    niiri:cbcl_q21_p_2sun869 "Destroys things belonging to his/her family or others Destruye las pertenencias de sus familiares o de otras personas"^^xsd:string ;
+    niiri:cbcl_q22_p_1p27v1l "Disobedient at home  Desobedece en casa"^^xsd:string ;
+    niiri:cbcl_q23_p_8ibn7b "Disobedient at school Desobedece en la escuela"^^xsd:string ;
+    niiri:cbcl_q24_p_6dahan "Doesn't eat well No come bien"^^xsd:string ;
+    niiri:cbcl_q25_p_3vdo9kl "Doesn't get along with other kids No se lleva bien con otros niños(as)/jóvenes"^^xsd:string ;
+    niiri:cbcl_q26_p_o7k8va "Doesn't seem to feel guilty after misbehaving No parece sentirse culpable después de portarse mal"^^xsd:string ;
+    niiri:cbcl_q27_p_bvrbpk "Easily jealous Se pone celoso(a) facilmente"^^xsd:string ;
+    niiri:cbcl_q28_p_26i22q0 "Breaks rules at home, school or elsewhere  No respeta/rompe las reglas en casa, en la escuela, o en otro lugar"^^xsd:string ;
+    niiri:cbcl_q29_p_38tegbc "Fears certain animals, situations, or places, other than school Tiene miedo de ciertas situaciones, animales o lugares (no incluya la escuela)"^^xsd:string ;
+    niiri:cbcl_q30_p_29jj8kt "Fears going to school Le da miedo ir a la escuela"^^xsd:string ;
+    niiri:cbcl_q31_p_17djmpf "Fears he/she might think or do something bad Tiene miedo de que pueda pensar o hacer  algo malo"^^xsd:string ;
+    niiri:cbcl_q32_p_hs1853 "Feels he/she has to be perfect Siente que tiene que ser perfecto(a)"^^xsd:string ;
+    niiri:cbcl_q33_p_2ub160t "Feels or complains that no one loves him/her Siente o se queja de que nadie lo/la quiere"^^xsd:string ;
+    niiri:cbcl_q34_p_s41fjf "Feels others are out to get him/her Siente que los demás lo/la quieren perjudicar"^^xsd:string ;
+    niiri:cbcl_q35_p_3608qhq "Feels worthless or inferior Se siente inferior o cree que no vale nada"^^xsd:string ;
+    niiri:cbcl_q36_p_2g5829t "Gets hurt a lot, accident prone Se lastima accidentalmente con mucha frecuencia, propenso(a) a accidentes"^^xsd:string ;
+    niiri:cbcl_q37_p_20uv3tk "Gets in many fights Se mete mucho en peleas"^^xsd:string ;
+    niiri:cbcl_q38_p_33uckqe "Gets teased a lot Los demás se burlan de él/ella a menudo"^^xsd:string ;
+    niiri:cbcl_q39_p_3ch4n17 "Hangs around with others who get in trouble Se junta con niños(as)/jóvenes que se meten en problemas"^^xsd:string ;
+    niiri:cbcl_q40_p_mkbr21 "Hears sound or voices that aren't there Oye sonidos o voces que no existen"^^xsd:string ;
+    niiri:cbcl_q41_p_1td4168 "Impulsive or acts without thinking Impulsivo(a); actúa sin pensar"^^xsd:string ;
+    niiri:cbcl_q42_p_1n4s6cl "Would rather be alone than with others Prefiere estar solo(a) que con otras personas"^^xsd:string ;
+    niiri:cbcl_q43_p_1iaqkgl "Lying or cheating Dice mentiras o hace trampas"^^xsd:string ;
+    niiri:cbcl_q44_p_q8t7sk "Bites fingernails Se come/muerde las uñas"^^xsd:string ;
+    niiri:cbcl_q45_p_2o1bi2v "Nervous, highstrung, or tense Nervioso(a), tenso(a)"^^xsd:string ;
+    niiri:cbcl_q46_p_1d0hlil "Nervous movements or twitching Movimientos involuntarios o tics"^^xsd:string ;
+    niiri:cbcl_q47_p_2nd479k "Nightmares Pesadillas"^^xsd:string ;
+    niiri:cbcl_q48_p_tr175q "Not liked by other kids No le cae bien a otros niños(as)/jóvenes"^^xsd:string ;
+    niiri:cbcl_q49_p_2mkga1v "Constipated, doesn't move bowels Padece de estreñimiento"^^xsd:string ;
+    niiri:cbcl_q50_p_1l6v96f "Too fearful or anxious Demasiado ansioso(a) o miedoso(a)"^^xsd:string ;
+    niiri:cbcl_q51_p_3i8dsqa "Feels dizzy or lightheaded Se siente mareado(a)"^^xsd:string ;
+    niiri:cbcl_q52_p_10gl5f3 "Feels too guilty Se siente demasiado culpable"^^xsd:string ;
+    niiri:cbcl_q53_p_j0bi9e "Overeating Come demasiado"^^xsd:string ;
+    niiri:cbcl_q54_p_igj833 "Overtired without good reason Se siente demasiado cansado(a) sin razón para estarlo"^^xsd:string ;
+    niiri:cbcl_q55_p_3mi44i2 "Overweight Tiene sobrepeso"^^xsd:string ;
+    niiri:cbcl_q56a_p_3vp6dm3 "Aches or pains (not stomach or headaches) Dolores o molestias (sin que sean del estómago o dolores de cabeza)"^^xsd:string ;
+    niiri:cbcl_q56b_p_2jgq3ms "Headaches Dolores de cabeza"^^xsd:string ;
+    niiri:cbcl_q56c_p_20n298p "Nausea, feels sick Náuseas, ganas de vomitar"^^xsd:string ;
+    niiri:cbcl_q56d_p_2qaiifg "Problems with eyes (not if corrected by glasses)  Problemas con los ojos (no incluya si se corrigió con gafas/lentes/espejuelos)"^^xsd:string ;
+    niiri:cbcl_q56e_p_d8otkb "Rashes or other skin problems Salpullido o irritación en la piel"^^xsd:string ;
+    niiri:cbcl_q56f_p_1fspiun "Stomachaches Dolores de estómago"^^xsd:string ;
+    niiri:cbcl_q56g_p_ol34s2 "Vomiting, throwing up Vómitos"^^xsd:string ;
+    niiri:cbcl_q56h_p_2rs611k "Other (physical problems without known physical cause) Otros (problemas físicos sin causa médica conocida)"^^xsd:string ;
+    niiri:cbcl_q57_p_qfnikt "Physically attacks people Ataca/agrede físicamente a otras personas"^^xsd:string ;
+    niiri:cbcl_q58_p_3b9bvg6 "Picks nose, skin, or other parts of body Mete el dedo en la nariz, se araña la piel u otras partes del cuerpo"^^xsd:string ;
+    niiri:cbcl_q59_p_19bc5a0 "Plays with own sex parts in public Se toca/juega con sus partes sexuales en público"^^xsd:string ;
+    niiri:cbcl_q60_p_37r0vao "Plays with own sex parts too much Se toca/juega demasiado con sus partes sexuales"^^xsd:string ;
+    niiri:cbcl_q61_p_q9in4o "Poor school work Tiene bajo rendimiento en la escuela"^^xsd:string ;
+    niiri:cbcl_q62_p_1guokm2 "Poorly coordinated or clumsy Mala coordinación o torpeza"^^xsd:string ;
+    niiri:cbcl_q63_p_3r5f1kq "Prefers being with older kids Prefiere estar con niños(as) mayores que él/ella"^^xsd:string ;
+    niiri:cbcl_q64_p_ub5jg9 "Prefers being with younger kids Prefiere estar con niños(as) menores que él/ella"^^xsd:string ;
+    niiri:cbcl_q65_p_15o2bb "Refuses to talk Se rehusa a hablar"^^xsd:string ;
+    niiri:cbcl_q66_p_1jnrvte "Repeats certain acts over and over; compulsions Repite ciertas acciones una y otra vez; compulsiones"^^xsd:string ;
+    niiri:cbcl_q67_p_1nv4vvl "Runs away from home Se fuga de la casa"^^xsd:string ;
+    niiri:cbcl_q68_p_299n0la "Screams a lot Grita mucho"^^xsd:string ;
+    niiri:cbcl_q69_p_hgjk1s "Secretive, keeps things to self Reservado(a); se calla todo"^^xsd:string ;
+    niiri:cbcl_q70_p_n7i60r "Sees things that aren't there Ve cosas que no existen"^^xsd:string ;
+    niiri:cbcl_q71_p_1o6ibi2 "Self-conscious or easily embarrassed Se cohíbe y se avergüenza con facilidad"^^xsd:string ;
+    niiri:cbcl_q72_p_20coill "Sets fires Prende fuegos/inicia incendios"^^xsd:string ;
+    niiri:cbcl_q73_p_2cooil1 "Sexual problems Problemas sexuales"^^xsd:string ;
+    niiri:cbcl_q74_p_1p0slk "Showing off or clowning Le gusta llamar la atención o hacerse el/la payaso(a), gracioso(a)"^^xsd:string ;
+    niiri:cbcl_q75_p_2q0cbhd "Too shy or timid Demasiado tímido(a)"^^xsd:string ;
+    niiri:cbcl_q76_p_1vjhssr "Sleeps less than most kids Duerme menos que la mayoría de los/las niños(as)/jóvenes"^^xsd:string ;
+    niiri:cbcl_q77_p_3mrvbv1 "Sleeps more than most kids during day and/or night Duerme más que la mayoría de los/las niños(as)/jóvenes durante el día y/o la noche"^^xsd:string ;
+    niiri:cbcl_q78_p_2tpjrdf "Inattentive or easily distracted  No presta atención o se distrae fácilmente"^^xsd:string ;
+    niiri:cbcl_q79_p_ecg9gk "Speech problem  Problemas con el habla (describa)"^^xsd:string ;
+    niiri:cbcl_q80_p_3581qdf "Stares blankly Se queda con la mirada fija, mirando al vacío"^^xsd:string ;
+    niiri:cbcl_q81_p_2fgbb3 "Steals at home Roba en casa"^^xsd:string ;
+    niiri:cbcl_q82_p_lnk7b8 "Steals outside the home Roba fuera de casa"^^xsd:string ;
+    niiri:cbcl_q83_p_c71b5e "Stores up too many things he/she doesn't need Almacena demasiadas cosas que no necesita"^^xsd:string ;
+    niiri:cbcl_q84_p_jbsb2o "Strange behavior Comportamiento raro"^^xsd:string ;
+    niiri:cbcl_q85_p_22l7eh0 "Strange ideas Ideas raras"^^xsd:string ;
+    niiri:cbcl_q86_p_2t1bdgr "Stubborn, sullen, or irritable Obstinado(a), malhumorado(a), irritable"^^xsd:string ;
+    niiri:cbcl_q87_p_1rne6bk "Sudden changes in mood or feelings Súbitos cambios de humor o sentimientos"^^xsd:string ;
+    niiri:cbcl_q88_p_3gopm3a "Sulks a lot Queda contrariado(a), pone mala cara con frecuencia"^^xsd:string ;
+    niiri:cbcl_q89_p_15d1mco "Suspicious Desconfiado(a), receloso(a)"^^xsd:string ;
+    niiri:cbcl_q90_p_3oakgfb "Swearing or obscene language Dice groserías, usa lenguaje obsceno"^^xsd:string ;
+    niiri:cbcl_q91_p_30079nc "Talks about killing self Habla de querer matarse"^^xsd:string ;
+    niiri:cbcl_q92_p_avvkjt "Talks or walks in sleep Habla o camina cuando está dormido(a)"^^xsd:string ;
+    niiri:cbcl_q93_p_fe5dae "Talks too much Habla demasiado"^^xsd:string ;
+    niiri:cbcl_q94_p_1u2su4e "Teases a lot Se burla mucho de los demás"^^xsd:string ;
+    niiri:cbcl_q95_p_25vu4ud "Temper tantrums or hot temper Le dan rabietas o tiene mal genio"^^xsd:string ;
+    niiri:cbcl_q96_p_2eq23nc "Thinks about sex too much Parece pensar demasiado sobre temas sexuales"^^xsd:string ;
+    niiri:cbcl_q97_p_2vmlkna "Threatens people Amenaza a otros"^^xsd:string ;
+    niiri:cbcl_q98_p_2g7uvpa "Thumb-sucking Se chupa el dedo"^^xsd:string ;
+    niiri:cbcl_q99_p_degmk "Smokes, chews, or sniffs tobacco Fuma, masca o inhala tabaco"^^xsd:string ;
+    niiri:cbcl_select_language___1_fki6oe "¿Español? (1, Sí)"^^xsd:string ;
+    niiri:collection_id_3t0ftjn "collection_id"^^xsd:string ;
+    niiri:collection_title_1c302s1 "collection_title"^^xsd:string ;
+    niiri:dataset_id_30hh82b "dataset_id"^^xsd:string ;
+    niiri:eventname_37mm0ke "The event name for which the data was collected"^^xsd:string ;
+    niiri:interview_age_1l03vd1 "Age in months at the time of the interview/test/sampling/imaging."^^xsd:string ;
+    niiri:interview_date_1lfivho "Date on which the interview/genetic test/sampling/imaging/biospecimen was completed. MM/DD/YYYY"^^xsd:string ;
+    niiri:sex_2j8l88m "Sex of the subject"^^xsd:string ;
+    niiri:study_cohort_name_27b2pno "study_cohort_name"^^xsd:string ;
+    niiri:subjectkey_3vulicm "The NDAR Global Unique Identifier (GUID) for research subject"^^xsd:string ;
+    niiri:timept_3lq661u "Time Point"^^xsd:string ;
+    nfo:filename "abcd_cbcl01_simdata.csv"^^xsd:string ;
+    prov:Location "file:/abcd_cbcl01_simdata.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:b20d6314-c6c9-11ec-982b-9810e8f107c4 .
+
+niiri:dataset_id_30hh82b a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "dataset_id" ;
+    dct:description "" ;
+    nidm:sourceVariable "dataset_id" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:e21b2bac-c6c9-11ec-982b-9810e8f107c4 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:abcd_cbcl01_id_1ig21p "100"^^xsd:string ;
+    niiri:cbcl_q01_p_1o5q0gm "1"^^xsd:string ;
+    niiri:cbcl_q02_p_283kfgr "0"^^xsd:string ;
+    niiri:cbcl_q03_p_3lfsdtj "2"^^xsd:string ;
+    niiri:cbcl_q04_p_3himmmf "1"^^xsd:string ;
+    niiri:cbcl_q05_p_p70ovm "0"^^xsd:string ;
+    niiri:cbcl_q06_p_260pa41 "0"^^xsd:string ;
+    niiri:cbcl_q07_p_1cmsfmp "0"^^xsd:string ;
+    niiri:cbcl_q08_p_9sfeu3 "0"^^xsd:string ;
+    niiri:cbcl_q09_p_3sd5n8h "0"^^xsd:string ;
+    niiri:cbcl_q100_p_26p1vgn "1"^^xsd:string ;
+    niiri:cbcl_q101_p_1623q8m "0"^^xsd:string ;
+    niiri:cbcl_q102_p_1kmlejj "0"^^xsd:string ;
+    niiri:cbcl_q103_p_1dubu4f "0"^^xsd:string ;
+    niiri:cbcl_q104_p_1c2cflb "0"^^xsd:string ;
+    niiri:cbcl_q105_p_1opj2f0 "0"^^xsd:string ;
+    niiri:cbcl_q106_p_1bvdf4s "0"^^xsd:string ;
+    niiri:cbcl_q107_p_3alk8ie "0"^^xsd:string ;
+    niiri:cbcl_q108_p_1larnb6 "0"^^xsd:string ;
+    niiri:cbcl_q109_p_3cocsnr "1"^^xsd:string ;
+    niiri:cbcl_q10_p_18n2tcq "1"^^xsd:string ;
+    niiri:cbcl_q110_p_2au6pp2 "0"^^xsd:string ;
+    niiri:cbcl_q111_p_1rbl72j "0"^^xsd:string ;
+    niiri:cbcl_q112_p_d561sf "1"^^xsd:string ;
+    niiri:cbcl_q11_p_32uunvd "1"^^xsd:string ;
+    niiri:cbcl_q12_p_6lb02h "0"^^xsd:string ;
+    niiri:cbcl_q13_p_2r30g71 "0"^^xsd:string ;
+    niiri:cbcl_q14_p_35r46c6 "0"^^xsd:string ;
+    niiri:cbcl_q15_p_349f1af "0"^^xsd:string ;
+    niiri:cbcl_q16_p_126slt7 "0"^^xsd:string ;
+    niiri:cbcl_q17_p_us1d7m "1"^^xsd:string ;
+    niiri:cbcl_q18_p_2nak66g "0"^^xsd:string ;
+    niiri:cbcl_q19_p_gnrg93 "0"^^xsd:string ;
+    niiri:cbcl_q20_p_1ls69g4 "0"^^xsd:string ;
+    niiri:cbcl_q21_p_2sun869 "0"^^xsd:string ;
+    niiri:cbcl_q22_p_1p27v1l "1"^^xsd:string ;
+    niiri:cbcl_q23_p_8ibn7b "1"^^xsd:string ;
+    niiri:cbcl_q24_p_6dahan "0"^^xsd:string ;
+    niiri:cbcl_q25_p_3vdo9kl "0"^^xsd:string ;
+    niiri:cbcl_q26_p_o7k8va "0"^^xsd:string ;
+    niiri:cbcl_q27_p_bvrbpk "1"^^xsd:string ;
+    niiri:cbcl_q28_p_26i22q0 "1"^^xsd:string ;
+    niiri:cbcl_q29_p_38tegbc "0"^^xsd:string ;
+    niiri:cbcl_q30_p_29jj8kt "0"^^xsd:string ;
+    niiri:cbcl_q31_p_17djmpf "0"^^xsd:string ;
+    niiri:cbcl_q32_p_hs1853 "1"^^xsd:string ;
+    niiri:cbcl_q33_p_2ub160t "0"^^xsd:string ;
+    niiri:cbcl_q34_p_s41fjf "0"^^xsd:string ;
+    niiri:cbcl_q35_p_3608qhq "0"^^xsd:string ;
+    niiri:cbcl_q36_p_2g5829t "0"^^xsd:string ;
+    niiri:cbcl_q37_p_20uv3tk "0"^^xsd:string ;
+    niiri:cbcl_q38_p_33uckqe "0"^^xsd:string ;
+    niiri:cbcl_q39_p_3ch4n17 "0"^^xsd:string ;
+    niiri:cbcl_q40_p_mkbr21 "0"^^xsd:string ;
+    niiri:cbcl_q41_p_1td4168 "0"^^xsd:string ;
+    niiri:cbcl_q42_p_1n4s6cl "0"^^xsd:string ;
+    niiri:cbcl_q43_p_1iaqkgl "0"^^xsd:string ;
+    niiri:cbcl_q44_p_q8t7sk "0"^^xsd:string ;
+    niiri:cbcl_q45_p_2o1bi2v "1"^^xsd:string ;
+    niiri:cbcl_q46_p_1d0hlil "1"^^xsd:string ;
+    niiri:cbcl_q47_p_2nd479k "1"^^xsd:string ;
+    niiri:cbcl_q48_p_tr175q "0"^^xsd:string ;
+    niiri:cbcl_q49_p_2mkga1v "0"^^xsd:string ;
+    niiri:cbcl_q50_p_1l6v96f "0"^^xsd:string ;
+    niiri:cbcl_q51_p_3i8dsqa "0"^^xsd:string ;
+    niiri:cbcl_q52_p_10gl5f3 "0"^^xsd:string ;
+    niiri:cbcl_q53_p_j0bi9e "0"^^xsd:string ;
+    niiri:cbcl_q54_p_igj833 "0"^^xsd:string ;
+    niiri:cbcl_q55_p_3mi44i2 "0"^^xsd:string ;
+    niiri:cbcl_q56a_p_3vp6dm3 "0"^^xsd:string ;
+    niiri:cbcl_q56b_p_2jgq3ms "0"^^xsd:string ;
+    niiri:cbcl_q56c_p_20n298p "0"^^xsd:string ;
+    niiri:cbcl_q56d_p_2qaiifg "0"^^xsd:string ;
+    niiri:cbcl_q56e_p_d8otkb "0"^^xsd:string ;
+    niiri:cbcl_q56f_p_1fspiun "0"^^xsd:string ;
+    niiri:cbcl_q56g_p_ol34s2 "0"^^xsd:string ;
+    niiri:cbcl_q56h_p_2rs611k "0"^^xsd:string ;
+    niiri:cbcl_q57_p_qfnikt "0"^^xsd:string ;
+    niiri:cbcl_q58_p_3b9bvg6 "0"^^xsd:string ;
+    niiri:cbcl_q59_p_19bc5a0 "0"^^xsd:string ;
+    niiri:cbcl_q60_p_37r0vao "0"^^xsd:string ;
+    niiri:cbcl_q61_p_q9in4o "0"^^xsd:string ;
+    niiri:cbcl_q62_p_1guokm2 "0"^^xsd:string ;
+    niiri:cbcl_q63_p_3r5f1kq "1"^^xsd:string ;
+    niiri:cbcl_q64_p_ub5jg9 "1"^^xsd:string ;
+    niiri:cbcl_q65_p_15o2bb "0"^^xsd:string ;
+    niiri:cbcl_q66_p_1jnrvte "0"^^xsd:string ;
+    niiri:cbcl_q67_p_1nv4vvl "0"^^xsd:string ;
+    niiri:cbcl_q68_p_299n0la "1"^^xsd:string ;
+    niiri:cbcl_q69_p_hgjk1s "0"^^xsd:string ;
+    niiri:cbcl_q70_p_n7i60r "0"^^xsd:string ;
+    niiri:cbcl_q71_p_1o6ibi2 "1"^^xsd:string ;
+    niiri:cbcl_q72_p_20coill "0"^^xsd:string ;
+    niiri:cbcl_q73_p_2cooil1 "0"^^xsd:string ;
+    niiri:cbcl_q74_p_1p0slk "1"^^xsd:string ;
+    niiri:cbcl_q75_p_2q0cbhd "0"^^xsd:string ;
+    niiri:cbcl_q76_p_1vjhssr "0"^^xsd:string ;
+    niiri:cbcl_q77_p_3mrvbv1 "0"^^xsd:string ;
+    niiri:cbcl_q78_p_2tpjrdf "1"^^xsd:string ;
+    niiri:cbcl_q79_p_ecg9gk "0"^^xsd:string ;
+    niiri:cbcl_q80_p_3581qdf "0"^^xsd:string ;
+    niiri:cbcl_q81_p_2fgbb3 "0"^^xsd:string ;
+    niiri:cbcl_q82_p_lnk7b8 "0"^^xsd:string ;
+    niiri:cbcl_q83_p_c71b5e "0"^^xsd:string ;
+    niiri:cbcl_q84_p_jbsb2o "0"^^xsd:string ;
+    niiri:cbcl_q85_p_22l7eh0 "0"^^xsd:string ;
+    niiri:cbcl_q86_p_2t1bdgr "0"^^xsd:string ;
+    niiri:cbcl_q87_p_1rne6bk "0"^^xsd:string ;
+    niiri:cbcl_q88_p_3gopm3a "0"^^xsd:string ;
+    niiri:cbcl_q89_p_15d1mco "0"^^xsd:string ;
+    niiri:cbcl_q90_p_3oakgfb "0"^^xsd:string ;
+    niiri:cbcl_q91_p_30079nc "0"^^xsd:string ;
+    niiri:cbcl_q92_p_avvkjt "0"^^xsd:string ;
+    niiri:cbcl_q93_p_fe5dae "0"^^xsd:string ;
+    niiri:cbcl_q94_p_1u2su4e "0"^^xsd:string ;
+    niiri:cbcl_q95_p_25vu4ud "1"^^xsd:string ;
+    niiri:cbcl_q96_p_2eq23nc "0"^^xsd:string ;
+    niiri:cbcl_q97_p_2vmlkna "0"^^xsd:string ;
+    niiri:cbcl_q98_p_2g7uvpa "0"^^xsd:string ;
+    niiri:cbcl_q99_p_degmk "0"^^xsd:string ;
+    niiri:cbcl_select_language___1_fki6oe "0"^^xsd:string ;
+    niiri:collection_id_3t0ftjn "1"^^xsd:string ;
+    niiri:collection_title_1c302s1 "fake Adolescent Brain Cognitive Development Study (fABCD)"^^xsd:string ;
+    niiri:dataset_id_30hh82b "1000"^^xsd:string ;
+    niiri:eventname_37mm0ke "1_year_follow_up_y_arm_1"^^xsd:string ;
+    niiri:interview_age_1l03vd1 "115"^^xsd:string ;
+    niiri:interview_date_1lfivho "2/1/19"^^xsd:string ;
+    niiri:sex_2j8l88m "F"^^xsd:string ;
+    niiri:study_cohort_name_27b2pno "fABCD 3.0 Data Release"^^xsd:string ;
+    niiri:subjectkey_3vulicm "NDAR_INV00000002"^^xsd:string ;
+    niiri:timept_3lq661u "NaN"^^xsd:double ;
+    nfo:filename "abcd_cbcl01_simdata.csv"^^xsd:string ;
+    prov:Location "file:/abcd_cbcl01_simdata.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:f21b28aa-c6c9-11ec-982b-9810e8f107c4 .
+
+niiri:e244487a-c6c9-11ec-982b-9810e8f107c4 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:abcd_cbcl01_id_1ig21p "100"^^xsd:string ;
+    niiri:cbcl_q01_p_1o5q0gm "0"^^xsd:string ;
+    niiri:cbcl_q02_p_283kfgr "0"^^xsd:string ;
+    niiri:cbcl_q03_p_3lfsdtj "1"^^xsd:string ;
+    niiri:cbcl_q04_p_3himmmf "0"^^xsd:string ;
+    niiri:cbcl_q05_p_p70ovm "0"^^xsd:string ;
+    niiri:cbcl_q06_p_260pa41 "0"^^xsd:string ;
+    niiri:cbcl_q07_p_1cmsfmp "0"^^xsd:string ;
+    niiri:cbcl_q08_p_9sfeu3 "0"^^xsd:string ;
+    niiri:cbcl_q09_p_3sd5n8h "0"^^xsd:string ;
+    niiri:cbcl_q100_p_26p1vgn "0"^^xsd:string ;
+    niiri:cbcl_q101_p_1623q8m "0"^^xsd:string ;
+    niiri:cbcl_q102_p_1kmlejj "0"^^xsd:string ;
+    niiri:cbcl_q103_p_1dubu4f "0"^^xsd:string ;
+    niiri:cbcl_q104_p_1c2cflb "0"^^xsd:string ;
+    niiri:cbcl_q105_p_1opj2f0 "0"^^xsd:string ;
+    niiri:cbcl_q106_p_1bvdf4s "0"^^xsd:string ;
+    niiri:cbcl_q107_p_3alk8ie "0"^^xsd:string ;
+    niiri:cbcl_q108_p_1larnb6 "0"^^xsd:string ;
+    niiri:cbcl_q109_p_3cocsnr "0"^^xsd:string ;
+    niiri:cbcl_q10_p_18n2tcq "0"^^xsd:string ;
+    niiri:cbcl_q110_p_2au6pp2 "0"^^xsd:string ;
+    niiri:cbcl_q111_p_1rbl72j "0"^^xsd:string ;
+    niiri:cbcl_q112_p_d561sf "0"^^xsd:string ;
+    niiri:cbcl_q11_p_32uunvd "0"^^xsd:string ;
+    niiri:cbcl_q12_p_6lb02h "0"^^xsd:string ;
+    niiri:cbcl_q13_p_2r30g71 "0"^^xsd:string ;
+    niiri:cbcl_q14_p_35r46c6 "0"^^xsd:string ;
+    niiri:cbcl_q15_p_349f1af "0"^^xsd:string ;
+    niiri:cbcl_q16_p_126slt7 "0"^^xsd:string ;
+    niiri:cbcl_q17_p_us1d7m "0"^^xsd:string ;
+    niiri:cbcl_q18_p_2nak66g "0"^^xsd:string ;
+    niiri:cbcl_q19_p_gnrg93 "0"^^xsd:string ;
+    niiri:cbcl_q20_p_1ls69g4 "0"^^xsd:string ;
+    niiri:cbcl_q21_p_2sun869 "0"^^xsd:string ;
+    niiri:cbcl_q22_p_1p27v1l "0"^^xsd:string ;
+    niiri:cbcl_q23_p_8ibn7b "0"^^xsd:string ;
+    niiri:cbcl_q24_p_6dahan "2"^^xsd:string ;
+    niiri:cbcl_q25_p_3vdo9kl "0"^^xsd:string ;
+    niiri:cbcl_q26_p_o7k8va "0"^^xsd:string ;
+    niiri:cbcl_q27_p_bvrbpk "0"^^xsd:string ;
+    niiri:cbcl_q28_p_26i22q0 "0"^^xsd:string ;
+    niiri:cbcl_q29_p_38tegbc "1"^^xsd:string ;
+    niiri:cbcl_q30_p_29jj8kt "0"^^xsd:string ;
+    niiri:cbcl_q31_p_17djmpf "0"^^xsd:string ;
+    niiri:cbcl_q32_p_hs1853 "1"^^xsd:string ;
+    niiri:cbcl_q33_p_2ub160t "0"^^xsd:string ;
+    niiri:cbcl_q34_p_s41fjf "0"^^xsd:string ;
+    niiri:cbcl_q35_p_3608qhq "0"^^xsd:string ;
+    niiri:cbcl_q36_p_2g5829t "0"^^xsd:string ;
+    niiri:cbcl_q37_p_20uv3tk "0"^^xsd:string ;
+    niiri:cbcl_q38_p_33uckqe "0"^^xsd:string ;
+    niiri:cbcl_q39_p_3ch4n17 "0"^^xsd:string ;
+    niiri:cbcl_q40_p_mkbr21 "0"^^xsd:string ;
+    niiri:cbcl_q41_p_1td4168 "0"^^xsd:string ;
+    niiri:cbcl_q42_p_1n4s6cl "1"^^xsd:string ;
+    niiri:cbcl_q43_p_1iaqkgl "0"^^xsd:string ;
+    niiri:cbcl_q44_p_q8t7sk "0"^^xsd:string ;
+    niiri:cbcl_q45_p_2o1bi2v "0"^^xsd:string ;
+    niiri:cbcl_q46_p_1d0hlil "0"^^xsd:string ;
+    niiri:cbcl_q47_p_2nd479k "0"^^xsd:string ;
+    niiri:cbcl_q48_p_tr175q "0"^^xsd:string ;
+    niiri:cbcl_q49_p_2mkga1v "1"^^xsd:string ;
+    niiri:cbcl_q50_p_1l6v96f "1"^^xsd:string ;
+    niiri:cbcl_q51_p_3i8dsqa "0"^^xsd:string ;
+    niiri:cbcl_q52_p_10gl5f3 "0"^^xsd:string ;
+    niiri:cbcl_q53_p_j0bi9e "0"^^xsd:string ;
+    niiri:cbcl_q54_p_igj833 "0"^^xsd:string ;
+    niiri:cbcl_q55_p_3mi44i2 "0"^^xsd:string ;
+    niiri:cbcl_q56a_p_3vp6dm3 "0"^^xsd:string ;
+    niiri:cbcl_q56b_p_2jgq3ms "0"^^xsd:string ;
+    niiri:cbcl_q56c_p_20n298p "0"^^xsd:string ;
+    niiri:cbcl_q56d_p_2qaiifg "0"^^xsd:string ;
+    niiri:cbcl_q56e_p_d8otkb "0"^^xsd:string ;
+    niiri:cbcl_q56f_p_1fspiun "0"^^xsd:string ;
+    niiri:cbcl_q56g_p_ol34s2 "0"^^xsd:string ;
+    niiri:cbcl_q56h_p_2rs611k "0"^^xsd:string ;
+    niiri:cbcl_q57_p_qfnikt "0"^^xsd:string ;
+    niiri:cbcl_q58_p_3b9bvg6 "0"^^xsd:string ;
+    niiri:cbcl_q59_p_19bc5a0 "0"^^xsd:string ;
+    niiri:cbcl_q60_p_37r0vao "0"^^xsd:string ;
+    niiri:cbcl_q61_p_q9in4o "0"^^xsd:string ;
+    niiri:cbcl_q62_p_1guokm2 "0"^^xsd:string ;
+    niiri:cbcl_q63_p_3r5f1kq "0"^^xsd:string ;
+    niiri:cbcl_q64_p_ub5jg9 "0"^^xsd:string ;
+    niiri:cbcl_q65_p_15o2bb "0"^^xsd:string ;
+    niiri:cbcl_q66_p_1jnrvte "0"^^xsd:string ;
+    niiri:cbcl_q67_p_1nv4vvl "0"^^xsd:string ;
+    niiri:cbcl_q68_p_299n0la "0"^^xsd:string ;
+    niiri:cbcl_q69_p_hgjk1s "0"^^xsd:string ;
+    niiri:cbcl_q70_p_n7i60r "0"^^xsd:string ;
+    niiri:cbcl_q71_p_1o6ibi2 "1"^^xsd:string ;
+    niiri:cbcl_q72_p_20coill "0"^^xsd:string ;
+    niiri:cbcl_q73_p_2cooil1 "0"^^xsd:string ;
+    niiri:cbcl_q74_p_1p0slk "0"^^xsd:string ;
+    niiri:cbcl_q75_p_2q0cbhd "1"^^xsd:string ;
+    niiri:cbcl_q76_p_1vjhssr "0"^^xsd:string ;
+    niiri:cbcl_q77_p_3mrvbv1 "0"^^xsd:string ;
+    niiri:cbcl_q78_p_2tpjrdf "0"^^xsd:string ;
+    niiri:cbcl_q79_p_ecg9gk "0"^^xsd:string ;
+    niiri:cbcl_q80_p_3581qdf "0"^^xsd:string ;
+    niiri:cbcl_q81_p_2fgbb3 "0"^^xsd:string ;
+    niiri:cbcl_q82_p_lnk7b8 "0"^^xsd:string ;
+    niiri:cbcl_q83_p_c71b5e "0"^^xsd:string ;
+    niiri:cbcl_q84_p_jbsb2o "0"^^xsd:string ;
+    niiri:cbcl_q85_p_22l7eh0 "0"^^xsd:string ;
+    niiri:cbcl_q86_p_2t1bdgr "1"^^xsd:string ;
+    niiri:cbcl_q87_p_1rne6bk "0"^^xsd:string ;
+    niiri:cbcl_q88_p_3gopm3a "0"^^xsd:string ;
+    niiri:cbcl_q89_p_15d1mco "0"^^xsd:string ;
+    niiri:cbcl_q90_p_3oakgfb "0"^^xsd:string ;
+    niiri:cbcl_q91_p_30079nc "0"^^xsd:string ;
+    niiri:cbcl_q92_p_avvkjt "0"^^xsd:string ;
+    niiri:cbcl_q93_p_fe5dae "0"^^xsd:string ;
+    niiri:cbcl_q94_p_1u2su4e "0"^^xsd:string ;
+    niiri:cbcl_q95_p_25vu4ud "0"^^xsd:string ;
+    niiri:cbcl_q96_p_2eq23nc "0"^^xsd:string ;
+    niiri:cbcl_q97_p_2vmlkna "0"^^xsd:string ;
+    niiri:cbcl_q98_p_2g7uvpa "0"^^xsd:string ;
+    niiri:cbcl_q99_p_degmk "0"^^xsd:string ;
+    niiri:cbcl_select_language___1_fki6oe "0"^^xsd:string ;
+    niiri:collection_id_3t0ftjn "1"^^xsd:string ;
+    niiri:collection_title_1c302s1 "fake Adolescent Brain Cognitive Development Study (fABCD)"^^xsd:string ;
+    niiri:dataset_id_30hh82b "1000"^^xsd:string ;
+    niiri:eventname_37mm0ke "baseline_year_1_arm_1"^^xsd:string ;
+    niiri:interview_age_1l03vd1 "112"^^xsd:string ;
+    niiri:interview_date_1lfivho "10/1/17"^^xsd:string ;
+    niiri:sex_2j8l88m "F"^^xsd:string ;
+    niiri:study_cohort_name_27b2pno "fABCD 3.0 Data Release"^^xsd:string ;
+    niiri:subjectkey_3vulicm "NDAR_INV00000010"^^xsd:string ;
+    niiri:timept_3lq661u "NaN"^^xsd:double ;
+    nfo:filename "abcd_cbcl01_simdata.csv"^^xsd:string ;
+    prov:Location "file:/abcd_cbcl01_simdata.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:e24444ec-c6c9-11ec-982b-9810e8f107c4 .
+
+niiri:eventname_37mm0ke a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "eventname" ;
+    dct:description "" ;
+    nidm:sourceVariable "eventname" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:f215fb46-c6c9-11ec-982b-9810e8f107c4 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:abcd_cbcl01_id_1ig21p "100"^^xsd:string ;
+    niiri:cbcl_q01_p_1o5q0gm "0"^^xsd:string ;
+    niiri:cbcl_q02_p_283kfgr "0"^^xsd:string ;
+    niiri:cbcl_q03_p_3lfsdtj "1"^^xsd:string ;
+    niiri:cbcl_q04_p_3himmmf "0"^^xsd:string ;
+    niiri:cbcl_q05_p_p70ovm "0"^^xsd:string ;
+    niiri:cbcl_q06_p_260pa41 "0"^^xsd:string ;
+    niiri:cbcl_q07_p_1cmsfmp "1"^^xsd:string ;
+    niiri:cbcl_q08_p_9sfeu3 "0"^^xsd:string ;
+    niiri:cbcl_q09_p_3sd5n8h "0"^^xsd:string ;
+    niiri:cbcl_q100_p_26p1vgn "0"^^xsd:string ;
+    niiri:cbcl_q101_p_1623q8m "0"^^xsd:string ;
+    niiri:cbcl_q102_p_1kmlejj "0"^^xsd:string ;
+    niiri:cbcl_q103_p_1dubu4f "0"^^xsd:string ;
+    niiri:cbcl_q104_p_1c2cflb "0"^^xsd:string ;
+    niiri:cbcl_q105_p_1opj2f0 "0"^^xsd:string ;
+    niiri:cbcl_q106_p_1bvdf4s "0"^^xsd:string ;
+    niiri:cbcl_q107_p_3alk8ie "0"^^xsd:string ;
+    niiri:cbcl_q108_p_1larnb6 "0"^^xsd:string ;
+    niiri:cbcl_q109_p_3cocsnr "0"^^xsd:string ;
+    niiri:cbcl_q10_p_18n2tcq "0"^^xsd:string ;
+    niiri:cbcl_q110_p_2au6pp2 "0"^^xsd:string ;
+    niiri:cbcl_q111_p_1rbl72j "0"^^xsd:string ;
+    niiri:cbcl_q112_p_d561sf "0"^^xsd:string ;
+    niiri:cbcl_q11_p_32uunvd "0"^^xsd:string ;
+    niiri:cbcl_q12_p_6lb02h "0"^^xsd:string ;
+    niiri:cbcl_q13_p_2r30g71 "0"^^xsd:string ;
+    niiri:cbcl_q14_p_35r46c6 "0"^^xsd:string ;
+    niiri:cbcl_q15_p_349f1af "0"^^xsd:string ;
+    niiri:cbcl_q16_p_126slt7 "0"^^xsd:string ;
+    niiri:cbcl_q17_p_us1d7m "0"^^xsd:string ;
+    niiri:cbcl_q18_p_2nak66g "0"^^xsd:string ;
+    niiri:cbcl_q19_p_gnrg93 "0"^^xsd:string ;
+    niiri:cbcl_q20_p_1ls69g4 "0"^^xsd:string ;
+    niiri:cbcl_q21_p_2sun869 "0"^^xsd:string ;
+    niiri:cbcl_q22_p_1p27v1l "1"^^xsd:string ;
+    niiri:cbcl_q23_p_8ibn7b "1"^^xsd:string ;
+    niiri:cbcl_q24_p_6dahan "0"^^xsd:string ;
+    niiri:cbcl_q25_p_3vdo9kl "0"^^xsd:string ;
+    niiri:cbcl_q26_p_o7k8va "0"^^xsd:string ;
+    niiri:cbcl_q27_p_bvrbpk "0"^^xsd:string ;
+    niiri:cbcl_q28_p_26i22q0 "1"^^xsd:string ;
+    niiri:cbcl_q29_p_38tegbc "0"^^xsd:string ;
+    niiri:cbcl_q30_p_29jj8kt "0"^^xsd:string ;
+    niiri:cbcl_q31_p_17djmpf "0"^^xsd:string ;
+    niiri:cbcl_q32_p_hs1853 "1"^^xsd:string ;
+    niiri:cbcl_q33_p_2ub160t "0"^^xsd:string ;
+    niiri:cbcl_q34_p_s41fjf "0"^^xsd:string ;
+    niiri:cbcl_q35_p_3608qhq "0"^^xsd:string ;
+    niiri:cbcl_q36_p_2g5829t "0"^^xsd:string ;
+    niiri:cbcl_q37_p_20uv3tk "0"^^xsd:string ;
+    niiri:cbcl_q38_p_33uckqe "0"^^xsd:string ;
+    niiri:cbcl_q39_p_3ch4n17 "0"^^xsd:string ;
+    niiri:cbcl_q40_p_mkbr21 "0"^^xsd:string ;
+    niiri:cbcl_q41_p_1td4168 "1"^^xsd:string ;
+    niiri:cbcl_q42_p_1n4s6cl "0"^^xsd:string ;
+    niiri:cbcl_q43_p_1iaqkgl "0"^^xsd:string ;
+    niiri:cbcl_q44_p_q8t7sk "2"^^xsd:string ;
+    niiri:cbcl_q45_p_2o1bi2v "0"^^xsd:string ;
+    niiri:cbcl_q46_p_1d0hlil "0"^^xsd:string ;
+    niiri:cbcl_q47_p_2nd479k "0"^^xsd:string ;
+    niiri:cbcl_q48_p_tr175q "0"^^xsd:string ;
+    niiri:cbcl_q49_p_2mkga1v "0"^^xsd:string ;
+    niiri:cbcl_q50_p_1l6v96f "0"^^xsd:string ;
+    niiri:cbcl_q51_p_3i8dsqa "0"^^xsd:string ;
+    niiri:cbcl_q52_p_10gl5f3 "0"^^xsd:string ;
+    niiri:cbcl_q53_p_j0bi9e "0"^^xsd:string ;
+    niiri:cbcl_q54_p_igj833 "0"^^xsd:string ;
+    niiri:cbcl_q55_p_3mi44i2 "0"^^xsd:string ;
+    niiri:cbcl_q56a_p_3vp6dm3 "0"^^xsd:string ;
+    niiri:cbcl_q56b_p_2jgq3ms "0"^^xsd:string ;
+    niiri:cbcl_q56c_p_20n298p "1"^^xsd:string ;
+    niiri:cbcl_q56d_p_2qaiifg "1"^^xsd:string ;
+    niiri:cbcl_q56e_p_d8otkb "0"^^xsd:string ;
+    niiri:cbcl_q56f_p_1fspiun "1"^^xsd:string ;
+    niiri:cbcl_q56g_p_ol34s2 "2"^^xsd:string ;
+    niiri:cbcl_q56h_p_2rs611k "0"^^xsd:string ;
+    niiri:cbcl_q57_p_qfnikt "0"^^xsd:string ;
+    niiri:cbcl_q58_p_3b9bvg6 "1"^^xsd:string ;
+    niiri:cbcl_q59_p_19bc5a0 "0"^^xsd:string ;
+    niiri:cbcl_q60_p_37r0vao "0"^^xsd:string ;
+    niiri:cbcl_q61_p_q9in4o "0"^^xsd:string ;
+    niiri:cbcl_q62_p_1guokm2 "0"^^xsd:string ;
+    niiri:cbcl_q63_p_3r5f1kq "1"^^xsd:string ;
+    niiri:cbcl_q64_p_ub5jg9 "1"^^xsd:string ;
+    niiri:cbcl_q65_p_15o2bb "0"^^xsd:string ;
+    niiri:cbcl_q66_p_1jnrvte "0"^^xsd:string ;
+    niiri:cbcl_q67_p_1nv4vvl "0"^^xsd:string ;
+    niiri:cbcl_q68_p_299n0la "0"^^xsd:string ;
+    niiri:cbcl_q69_p_hgjk1s "0"^^xsd:string ;
+    niiri:cbcl_q70_p_n7i60r "0"^^xsd:string ;
+    niiri:cbcl_q71_p_1o6ibi2 "0"^^xsd:string ;
+    niiri:cbcl_q72_p_20coill "0"^^xsd:string ;
+    niiri:cbcl_q73_p_2cooil1 "0"^^xsd:string ;
+    niiri:cbcl_q74_p_1p0slk "0"^^xsd:string ;
+    niiri:cbcl_q75_p_2q0cbhd "0"^^xsd:string ;
+    niiri:cbcl_q76_p_1vjhssr "0"^^xsd:string ;
+    niiri:cbcl_q77_p_3mrvbv1 "0"^^xsd:string ;
+    niiri:cbcl_q78_p_2tpjrdf "1"^^xsd:string ;
+    niiri:cbcl_q79_p_ecg9gk "0"^^xsd:string ;
+    niiri:cbcl_q80_p_3581qdf "0"^^xsd:string ;
+    niiri:cbcl_q81_p_2fgbb3 "0"^^xsd:string ;
+    niiri:cbcl_q82_p_lnk7b8 "0"^^xsd:string ;
+    niiri:cbcl_q83_p_c71b5e "0"^^xsd:string ;
+    niiri:cbcl_q84_p_jbsb2o "0"^^xsd:string ;
+    niiri:cbcl_q85_p_22l7eh0 "0"^^xsd:string ;
+    niiri:cbcl_q86_p_2t1bdgr "1"^^xsd:string ;
+    niiri:cbcl_q87_p_1rne6bk "0"^^xsd:string ;
+    niiri:cbcl_q88_p_3gopm3a "0"^^xsd:string ;
+    niiri:cbcl_q89_p_15d1mco "0"^^xsd:string ;
+    niiri:cbcl_q90_p_3oakgfb "0"^^xsd:string ;
+    niiri:cbcl_q91_p_30079nc "0"^^xsd:string ;
+    niiri:cbcl_q92_p_avvkjt "1"^^xsd:string ;
+    niiri:cbcl_q93_p_fe5dae "0"^^xsd:string ;
+    niiri:cbcl_q94_p_1u2su4e "0"^^xsd:string ;
+    niiri:cbcl_q95_p_25vu4ud "1"^^xsd:string ;
+    niiri:cbcl_q96_p_2eq23nc "0"^^xsd:string ;
+    niiri:cbcl_q97_p_2vmlkna "0"^^xsd:string ;
+    niiri:cbcl_q98_p_2g7uvpa "0"^^xsd:string ;
+    niiri:cbcl_q99_p_degmk "0"^^xsd:string ;
+    niiri:cbcl_select_language___1_fki6oe "0"^^xsd:string ;
+    niiri:collection_id_3t0ftjn "1"^^xsd:string ;
+    niiri:collection_title_1c302s1 "fake Adolescent Brain Cognitive Development Study (fABCD)"^^xsd:string ;
+    niiri:dataset_id_30hh82b "1000"^^xsd:string ;
+    niiri:eventname_37mm0ke "baseline_year_1_arm_1"^^xsd:string ;
+    niiri:interview_age_1l03vd1 "110"^^xsd:string ;
+    niiri:interview_date_1lfivho "1/1/17"^^xsd:string ;
+    niiri:sex_2j8l88m "M"^^xsd:string ;
+    niiri:study_cohort_name_27b2pno "fABCD 3.0 Data Release"^^xsd:string ;
+    niiri:subjectkey_3vulicm "NDAR_INV00000001"^^xsd:string ;
+    niiri:timept_3lq661u "NaN"^^xsd:double ;
+    nfo:filename "abcd_cbcl01_simdata.csv"^^xsd:string ;
+    prov:Location "file:/abcd_cbcl01_simdata.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:c215f88a-c6c9-11ec-982b-9810e8f107c4 .
+
+niiri:f23f511c-c6c9-11ec-982b-9810e8f107c4 a onli:assessment-instrument,
+        nidm:AcquisitionObject,
+        prov:Entity ;
+    niiri:abcd_cbcl01_id_1ig21p "100"^^xsd:string ;
+    niiri:cbcl_q01_p_1o5q0gm "1"^^xsd:string ;
+    niiri:cbcl_q02_p_283kfgr "0"^^xsd:string ;
+    niiri:cbcl_q03_p_3lfsdtj "1"^^xsd:string ;
+    niiri:cbcl_q04_p_3himmmf "1"^^xsd:string ;
+    niiri:cbcl_q05_p_p70ovm "0"^^xsd:string ;
+    niiri:cbcl_q06_p_260pa41 "0"^^xsd:string ;
+    niiri:cbcl_q07_p_1cmsfmp "1"^^xsd:string ;
+    niiri:cbcl_q08_p_9sfeu3 "1"^^xsd:string ;
+    niiri:cbcl_q09_p_3sd5n8h "1"^^xsd:string ;
+    niiri:cbcl_q100_p_26p1vgn "1"^^xsd:string ;
+    niiri:cbcl_q101_p_1623q8m "0"^^xsd:string ;
+    niiri:cbcl_q102_p_1kmlejj "0"^^xsd:string ;
+    niiri:cbcl_q103_p_1dubu4f "0"^^xsd:string ;
+    niiri:cbcl_q104_p_1c2cflb "1"^^xsd:string ;
+    niiri:cbcl_q105_p_1opj2f0 "0"^^xsd:string ;
+    niiri:cbcl_q106_p_1bvdf4s "0"^^xsd:string ;
+    niiri:cbcl_q107_p_3alk8ie "0"^^xsd:string ;
+    niiri:cbcl_q108_p_1larnb6 "0"^^xsd:string ;
+    niiri:cbcl_q109_p_3cocsnr "1"^^xsd:string ;
+    niiri:cbcl_q10_p_18n2tcq "1"^^xsd:string ;
+    niiri:cbcl_q110_p_2au6pp2 "0"^^xsd:string ;
+    niiri:cbcl_q111_p_1rbl72j "0"^^xsd:string ;
+    niiri:cbcl_q112_p_d561sf "1"^^xsd:string ;
+    niiri:cbcl_q11_p_32uunvd "0"^^xsd:string ;
+    niiri:cbcl_q12_p_6lb02h "0"^^xsd:string ;
+    niiri:cbcl_q13_p_2r30g71 "0"^^xsd:string ;
+    niiri:cbcl_q14_p_35r46c6 "0"^^xsd:string ;
+    niiri:cbcl_q15_p_349f1af "0"^^xsd:string ;
+    niiri:cbcl_q16_p_126slt7 "0"^^xsd:string ;
+    niiri:cbcl_q17_p_us1d7m "1"^^xsd:string ;
+    niiri:cbcl_q18_p_2nak66g "0"^^xsd:string ;
+    niiri:cbcl_q19_p_gnrg93 "1"^^xsd:string ;
+    niiri:cbcl_q20_p_1ls69g4 "0"^^xsd:string ;
+    niiri:cbcl_q21_p_2sun869 "0"^^xsd:string ;
+    niiri:cbcl_q22_p_1p27v1l "1"^^xsd:string ;
+    niiri:cbcl_q23_p_8ibn7b "1"^^xsd:string ;
+    niiri:cbcl_q24_p_6dahan "1"^^xsd:string ;
+    niiri:cbcl_q25_p_3vdo9kl "1"^^xsd:string ;
+    niiri:cbcl_q26_p_o7k8va "0"^^xsd:string ;
+    niiri:cbcl_q27_p_bvrbpk "0"^^xsd:string ;
+    niiri:cbcl_q28_p_26i22q0 "1"^^xsd:string ;
+    niiri:cbcl_q29_p_38tegbc "1"^^xsd:string ;
+    niiri:cbcl_q30_p_29jj8kt "0"^^xsd:string ;
+    niiri:cbcl_q31_p_17djmpf "0"^^xsd:string ;
+    niiri:cbcl_q32_p_hs1853 "0"^^xsd:string ;
+    niiri:cbcl_q33_p_2ub160t "0"^^xsd:string ;
+    niiri:cbcl_q34_p_s41fjf "0"^^xsd:string ;
+    niiri:cbcl_q35_p_3608qhq "0"^^xsd:string ;
+    niiri:cbcl_q36_p_2g5829t "0"^^xsd:string ;
+    niiri:cbcl_q37_p_20uv3tk "0"^^xsd:string ;
+    niiri:cbcl_q38_p_33uckqe "0"^^xsd:string ;
+    niiri:cbcl_q39_p_3ch4n17 "0"^^xsd:string ;
+    niiri:cbcl_q40_p_mkbr21 "0"^^xsd:string ;
+    niiri:cbcl_q41_p_1td4168 "1"^^xsd:string ;
+    niiri:cbcl_q42_p_1n4s6cl "1"^^xsd:string ;
+    niiri:cbcl_q43_p_1iaqkgl "0"^^xsd:string ;
+    niiri:cbcl_q44_p_q8t7sk "0"^^xsd:string ;
+    niiri:cbcl_q45_p_2o1bi2v "1"^^xsd:string ;
+    niiri:cbcl_q46_p_1d0hlil "0"^^xsd:string ;
+    niiri:cbcl_q47_p_2nd479k "0"^^xsd:string ;
+    niiri:cbcl_q48_p_tr175q "0"^^xsd:string ;
+    niiri:cbcl_q49_p_2mkga1v "0"^^xsd:string ;
+    niiri:cbcl_q50_p_1l6v96f "1"^^xsd:string ;
+    niiri:cbcl_q51_p_3i8dsqa "0"^^xsd:string ;
+    niiri:cbcl_q52_p_10gl5f3 "0"^^xsd:string ;
+    niiri:cbcl_q53_p_j0bi9e "0"^^xsd:string ;
+    niiri:cbcl_q54_p_igj833 "0"^^xsd:string ;
+    niiri:cbcl_q55_p_3mi44i2 "0"^^xsd:string ;
+    niiri:cbcl_q56a_p_3vp6dm3 "0"^^xsd:string ;
+    niiri:cbcl_q56b_p_2jgq3ms "0"^^xsd:string ;
+    niiri:cbcl_q56c_p_20n298p "0"^^xsd:string ;
+    niiri:cbcl_q56d_p_2qaiifg "0"^^xsd:string ;
+    niiri:cbcl_q56e_p_d8otkb "0"^^xsd:string ;
+    niiri:cbcl_q56f_p_1fspiun "0"^^xsd:string ;
+    niiri:cbcl_q56g_p_ol34s2 "0"^^xsd:string ;
+    niiri:cbcl_q56h_p_2rs611k "0"^^xsd:string ;
+    niiri:cbcl_q57_p_qfnikt "0"^^xsd:string ;
+    niiri:cbcl_q58_p_3b9bvg6 "0"^^xsd:string ;
+    niiri:cbcl_q59_p_19bc5a0 "0"^^xsd:string ;
+    niiri:cbcl_q60_p_37r0vao "0"^^xsd:string ;
+    niiri:cbcl_q61_p_q9in4o "1"^^xsd:string ;
+    niiri:cbcl_q62_p_1guokm2 "0"^^xsd:string ;
+    niiri:cbcl_q63_p_3r5f1kq "1"^^xsd:string ;
+    niiri:cbcl_q64_p_ub5jg9 "1"^^xsd:string ;
+    niiri:cbcl_q65_p_15o2bb "0"^^xsd:string ;
+    niiri:cbcl_q66_p_1jnrvte "0"^^xsd:string ;
+    niiri:cbcl_q67_p_1nv4vvl "0"^^xsd:string ;
+    niiri:cbcl_q68_p_299n0la "0"^^xsd:string ;
+    niiri:cbcl_q69_p_hgjk1s "0"^^xsd:string ;
+    niiri:cbcl_q70_p_n7i60r "0"^^xsd:string ;
+    niiri:cbcl_q71_p_1o6ibi2 "0"^^xsd:string ;
+    niiri:cbcl_q72_p_20coill "0"^^xsd:string ;
+    niiri:cbcl_q73_p_2cooil1 "0"^^xsd:string ;
+    niiri:cbcl_q74_p_1p0slk "1"^^xsd:string ;
+    niiri:cbcl_q75_p_2q0cbhd "0"^^xsd:string ;
+    niiri:cbcl_q76_p_1vjhssr "1"^^xsd:string ;
+    niiri:cbcl_q77_p_3mrvbv1 "0"^^xsd:string ;
+    niiri:cbcl_q78_p_2tpjrdf "1"^^xsd:string ;
+    niiri:cbcl_q79_p_ecg9gk "0"^^xsd:string ;
+    niiri:cbcl_q80_p_3581qdf "0"^^xsd:string ;
+    niiri:cbcl_q81_p_2fgbb3 "0"^^xsd:string ;
+    niiri:cbcl_q82_p_lnk7b8 "0"^^xsd:string ;
+    niiri:cbcl_q83_p_c71b5e "0"^^xsd:string ;
+    niiri:cbcl_q84_p_jbsb2o "1"^^xsd:string ;
+    niiri:cbcl_q85_p_22l7eh0 "1"^^xsd:string ;
+    niiri:cbcl_q86_p_2t1bdgr "1"^^xsd:string ;
+    niiri:cbcl_q87_p_1rne6bk "0"^^xsd:string ;
+    niiri:cbcl_q88_p_3gopm3a "0"^^xsd:string ;
+    niiri:cbcl_q89_p_15d1mco "0"^^xsd:string ;
+    niiri:cbcl_q90_p_3oakgfb "0"^^xsd:string ;
+    niiri:cbcl_q91_p_30079nc "0"^^xsd:string ;
+    niiri:cbcl_q92_p_avvkjt "0"^^xsd:string ;
+    niiri:cbcl_q93_p_fe5dae "1"^^xsd:string ;
+    niiri:cbcl_q94_p_1u2su4e "1"^^xsd:string ;
+    niiri:cbcl_q95_p_25vu4ud "1"^^xsd:string ;
+    niiri:cbcl_q96_p_2eq23nc "0"^^xsd:string ;
+    niiri:cbcl_q97_p_2vmlkna "0"^^xsd:string ;
+    niiri:cbcl_q98_p_2g7uvpa "0"^^xsd:string ;
+    niiri:cbcl_q99_p_degmk "0"^^xsd:string ;
+    niiri:cbcl_select_language___1_fki6oe "0"^^xsd:string ;
+    niiri:collection_id_3t0ftjn "1"^^xsd:string ;
+    niiri:collection_title_1c302s1 "fake Adolescent Brain Cognitive Development Study (fABCD)"^^xsd:string ;
+    niiri:dataset_id_30hh82b "1000"^^xsd:string ;
+    niiri:eventname_37mm0ke "1_year_follow_up_y_arm_1"^^xsd:string ;
+    niiri:interview_age_1l03vd1 "140"^^xsd:string ;
+    niiri:interview_date_1lfivho "9/1/19"^^xsd:string ;
+    niiri:sex_2j8l88m "M"^^xsd:string ;
+    niiri:study_cohort_name_27b2pno "fABCD 3.0 Data Release"^^xsd:string ;
+    niiri:subjectkey_3vulicm "NDAR_INV00000009"^^xsd:string ;
+    niiri:timept_3lq661u "NaN"^^xsd:double ;
+    nfo:filename "abcd_cbcl01_simdata.csv"^^xsd:string ;
+    prov:Location "file:/abcd_cbcl01_simdata.csv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:c23f4e42-c6c9-11ec-982b-9810e8f107c4 .
+
+niiri:interview_age_1l03vd1 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "interview_age" ;
+    dct:description "" ;
+    nidm:sourceVariable "interview_age" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:interview_date_1lfivho a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "interview_date" ;
+    dct:description "" ;
+    nidm:sourceVariable "interview_date" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:sex_2j8l88m a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "sex" ;
+    dct:description "" ;
+    nidm:isAbout ilx:ilx_0738439 ;
+    nidm:sourceVariable "sex" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:src_subject_id_2d62c2p a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "src_subject_id" ;
+    dct:description "subject/participant identifier" ;
+    nidm:isAbout ndar:src_subject_id ;
+    nidm:sourceVariable "src_subject_id" .
+
+niiri:study_cohort_name_27b2pno a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "study_cohort_name" ;
+    dct:description "" ;
+    nidm:sourceVariable "study_cohort_name" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:subjectkey_3vulicm a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "subjectkey" ;
+    dct:description "Subject key" ;
+    nidm:sourceVariable "subjectkey" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:timept_3lq661u a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "timept" ;
+    dct:description "" ;
+    nidm:sourceVariable "timept" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:a213b200-c6c9-11ec-982b-9810e8f107c4 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "Subject ID how it's defined in lab/project"^^xsd:string .
+
+niiri:a232b880-c6c9-11ec-982b-9810e8f107c4 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "NDAR_INV00000006"^^xsd:string .
+
+niiri:a23d220c-c6c9-11ec-982b-9810e8f107c4 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "NDAR_INV00000008"^^xsd:string .
+
+niiri:a2443c90-c6c9-11ec-982b-9810e8f107c4 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:a20c54d8-c6c9-11ec-982b-9810e8f107c4 .
+
+niiri:a2476f14-c6c9-11ec-982b-9810e8f107c4 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "NDAR_INV00000010"^^xsd:string .
+
+niiri:b20d5f5e-c6c9-11ec-982b-9810e8f107c4 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:a20c54d8-c6c9-11ec-982b-9810e8f107c4 .
+
+niiri:b20d6314-c6c9-11ec-982b-9810e8f107c4 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:b20d5f5e-c6c9-11ec-982b-9810e8f107c4 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a213b200-c6c9-11ec-982b-9810e8f107c4 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:b2230ce6-c6c9-11ec-982b-9810e8f107c4 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "NDAR_INV00000003"^^xsd:string .
+
+niiri:b234e20e-c6c9-11ec-982b-9810e8f107c4 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:a20c54d8-c6c9-11ec-982b-9810e8f107c4 .
+
+niiri:b234e628-c6c9-11ec-982b-9810e8f107c4 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:b234e20e-c6c9-11ec-982b-9810e8f107c4 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e237d734-c6c9-11ec-982b-9810e8f107c4 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:c215f88a-c6c9-11ec-982b-9810e8f107c4 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:e215f4e8-c6c9-11ec-982b-9810e8f107c4 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:c218eb1c-c6c9-11ec-982b-9810e8f107c4 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:c218eb1c-c6c9-11ec-982b-9810e8f107c4 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "NDAR_INV00000001"^^xsd:string .
+
+niiri:c22028a0-c6c9-11ec-982b-9810e8f107c4 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:a20c54d8-c6c9-11ec-982b-9810e8f107c4 .
+
+niiri:c2254402-c6c9-11ec-982b-9810e8f107c4 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:a20c54d8-c6c9-11ec-982b-9810e8f107c4 .
+
+niiri:c225489e-c6c9-11ec-982b-9810e8f107c4 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c2254402-c6c9-11ec-982b-9810e8f107c4 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:c2283c7a-c6c9-11ec-982b-9810e8f107c4 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:c2283c7a-c6c9-11ec-982b-9810e8f107c4 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "NDAR_INV00000004"^^xsd:string .
+
+niiri:c22f7d96-c6c9-11ec-982b-9810e8f107c4 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:a20c54d8-c6c9-11ec-982b-9810e8f107c4 .
+
+niiri:c23f4e42-c6c9-11ec-982b-9810e8f107c4 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:d23f4a0a-c6c9-11ec-982b-9810e8f107c4 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f2421906-c6c9-11ec-982b-9810e8f107c4 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:d21dfd28-c6c9-11ec-982b-9810e8f107c4 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "NDAR_INV00000002"^^xsd:string .
+
+niiri:d23f4a0a-c6c9-11ec-982b-9810e8f107c4 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:a20c54d8-c6c9-11ec-982b-9810e8f107c4 .
+
+niiri:e215f4e8-c6c9-11ec-982b-9810e8f107c4 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:a20c54d8-c6c9-11ec-982b-9810e8f107c4 .
+
+niiri:e2202c42-c6c9-11ec-982b-9810e8f107c4 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c22028a0-c6c9-11ec-982b-9810e8f107c4 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b2230ce6-c6c9-11ec-982b-9810e8f107c4 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:e22a6cfc-c6c9-11ec-982b-9810e8f107c4 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:f22a68f6-c6c9-11ec-982b-9810e8f107c4 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e22d4756-c6c9-11ec-982b-9810e8f107c4 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:e22d4756-c6c9-11ec-982b-9810e8f107c4 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "NDAR_INV00000005"^^xsd:string .
+
+niiri:e22f81c4-c6c9-11ec-982b-9810e8f107c4 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c22f7d96-c6c9-11ec-982b-9810e8f107c4 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a232b880-c6c9-11ec-982b-9810e8f107c4 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:e237d734-c6c9-11ec-982b-9810e8f107c4 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "NDAR_INV00000007"^^xsd:string .
+
+niiri:e24444ec-c6c9-11ec-982b-9810e8f107c4 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a2443c90-c6c9-11ec-982b-9810e8f107c4 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a2476f14-c6c9-11ec-982b-9810e8f107c4 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:f21b249a-c6c9-11ec-982b-9810e8f107c4 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:a20c54d8-c6c9-11ec-982b-9810e8f107c4 .
+
+niiri:f21b28aa-c6c9-11ec-982b-9810e8f107c4 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:f21b249a-c6c9-11ec-982b-9810e8f107c4 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:d21dfd28-c6c9-11ec-982b-9810e8f107c4 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:f22a68f6-c6c9-11ec-982b-9810e8f107c4 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:a20c54d8-c6c9-11ec-982b-9810e8f107c4 .
+
+niiri:f23a01ee-c6c9-11ec-982b-9810e8f107c4 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:a20c54d8-c6c9-11ec-982b-9810e8f107c4 .
+
+niiri:f23a0608-c6c9-11ec-982b-9810e8f107c4 a onli:instrument-based-assessment,
+        nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:f23a01ee-c6c9-11ec-982b-9810e8f107c4 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a23d220c-c6c9-11ec-982b-9810e8f107c4 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:f2421906-c6c9-11ec-982b-9810e8f107c4 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "NDAR_INV00000009"^^xsd:string .
+
+ilx:ilx_0738439 a prov:Entity ;
+    rdfs:label "SEX" .
+
+ndar:src_subject_id a prov:Entity ;
+    rdfs:label "src_subject_id" .
+
+niiri:a20c54d8-c6c9-11ec-982b-9810e8f107c4 a nidm:Project,
+        prov:Activity ;
+    nfo:filename "abcd_cbcl01_simdata.csv"^^xsd:string .
+
+nidm:PersonalDataElement rdfs:subClassOf nidm:DataElement .
+
