@@ -3,8 +3,8 @@
       "@id": "subjectkey",
       "isAbout": [
               {
-                  "@id": "http://uri.interlex.org/base/ilx_0377827",
-                  "label": "cbcl_internal (Child Behavior Checklist (CBCL) 1-5)"
+                  "@id": "subjectkey",
+                  "label": "subject key"
               }
           ]
   }
